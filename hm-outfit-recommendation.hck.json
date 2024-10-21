@@ -1,0 +1,409 @@
+{
+    "modelName": "hm-outfit-recommendation",
+    "collections": [
+        {
+            "collectionName": "item",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "GUID": "f114f38c-d3ba-4bcd-90ed-fdadbf8c93b4",
+                    "format": "uuid",
+                    "required": true,
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "sku",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "GUID": "c2d14ab2-48a1-4d79-91e5-4248cdf99cc9",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "GUID": "c36cea48-e39a-4b45-89ea-fb5b4bcfa1f9",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "description",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "GUID": "89f91f70-f96c-4fd1-bf6f-763b93a5c9a9",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "category",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "GUID": "8e76f00b-59a9-4b02-9770-b7747f3ca5ec",
+                    "enum": [
+                        "TOP",
+                        "BOTTOM",
+                        "ONE_PIECE",
+                        "OUTERWEAR",
+                        "SHOES",
+                        "ACCESSORIES"
+                    ],
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "subCategory",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "GUID": "116c2b27-5b48-44da-9b94-c5d5d3ec137d",
+                    "dependencies": [
+                        "8e76f00b-59a9-4b02-9770-b7747f3ca5ec"
+                    ],
+                    "enum": [
+                        "HEAD",
+                        "JEWELRY",
+                        "BELT",
+                        "BAG",
+                        "SHIRT",
+                        "T_SHIRT",
+                        "TANKTOP",
+                        "SWEATSHIRT",
+                        "TROUSER",
+                        "SHORTS",
+                        "SKIRT",
+                        "DENNING",
+                        "SANDAL",
+                        "SNEAKER",
+                        "BOOTS",
+                        "HEELS",
+                        "JUMPSUIT",
+                        "DRESS",
+                        "ROMPER",
+                        "BODYSUIT",
+                        "JACKET",
+                        "SWEATER",
+                        "COAT",
+                        "BLAZER"
+                    ],
+                    "error": {}
+                },
+                {
+                    "name": "color",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "GUID": "5fe6b1f4-09c5-433d-8029-7c854a6efa6e",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "price",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "numeric",
+                    "properties": [],
+                    "GUID": "268954d9-2d98-4da9-8f2d-941e7fb7e0c3",
+                    "minimum": 0,
+                    "error": {}
+                },
+                {
+                    "name": "stock",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "integer",
+                    "properties": [],
+                    "GUID": "0dc9d8fa-6ffe-473a-8cf5-3826fa58eccf",
+                    "minimum": 0,
+                    "error": {}
+                },
+                {
+                    "name": "occasion",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "properties": [],
+                            "GUID": "fcf19ec0-925b-4103-8bb5-b5bd5e683449",
+                            "arrayItem": true,
+                            "enum": [
+                                "CHRISTMAS",
+                                "WEDDING",
+                                "GRADUATION",
+                                "DATE",
+                                "NIGHT_OUT",
+                                "WORK",
+                                "SCHOOL",
+                                "DAY_OFF"
+                            ],
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "GUID": "44b3e9e5-8519-4d7f-99c5-65655b5553a0",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "error": {}
+                },
+                {
+                    "name": "mood",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "properties": [],
+                            "GUID": "a754f6ac-d78a-4e68-8ec5-f352ace37be7",
+                            "arrayItem": true,
+                            "enum": [
+                                "COOL",
+                                "CUTE",
+                                "ELEGANT",
+                                "BASIC",
+                                "FANCY"
+                            ],
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "GUID": "11fc2771-aece-4f47-8d75-79862f05b04e",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "error": {}
+                },
+                {
+                    "name": "style",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "properties": [],
+                            "GUID": "bbdc1f3a-02e9-428a-9069-2e8ef2e445ca",
+                            "arrayItem": true,
+                            "enum": [
+                                "CASUAL",
+                                "TRADITIONAL",
+                                "GLAMOUR",
+                                "NEO_TRADITIONAL",
+                                "YOUNGER"
+                            ],
+                            "error": {
+                                "enum": false,
+                                "enums": false
+                            }
+                        }
+                    ],
+                    "additionalItems": true,
+                    "GUID": "2b973bd1-d764-42d9-b382-5568e0a317e3",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "error": {}
+                },
+                {
+                    "name": "season",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "properties": [],
+                            "GUID": "a0506d66-0890-4019-b236-b2b96ac59e77",
+                            "arrayItem": true,
+                            "enum": [
+                                "SUMMER",
+                                "AUTUMN",
+                                "WINTER",
+                                "SPRING"
+                            ],
+                            "error": {
+                                "enum": false,
+                                "enums": false
+                            }
+                        }
+                    ],
+                    "additionalItems": true,
+                    "GUID": "3effbd4b-b100-429b-a889-f4ca6d33f70b",
+                    "minItems": 1,
+                    "uniqueItems": true,
+                    "error": {}
+                },
+                {
+                    "name": "images",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "properties": [],
+                            "GUID": "3c5f1f65-dc9b-4a20-ba2d-41dd8b831656",
+                            "arrayItem": true,
+                            "format": "uri",
+                            "minLength": 1,
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "error": {
+                        "name": false
+                    },
+                    "GUID": "230d2b66-e8b0-4196-b711-0021d1835e5f"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "0aeefc2c-4248-4a81-8f2b-80250dbb039c"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "633bb2f4-d99b-467f-99b2-8b47ba207604"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "633bb2f4-d99b-467f-99b2-8b47ba207604": "item",
+        "f114f38c-d3ba-4bcd-90ed-fdadbf8c93b4": "_id",
+        "c2d14ab2-48a1-4d79-91e5-4248cdf99cc9": "sku",
+        "8e76f00b-59a9-4b02-9770-b7747f3ca5ec": "category",
+        "89f91f70-f96c-4fd1-bf6f-763b93a5c9a9": "description",
+        "268954d9-2d98-4da9-8f2d-941e7fb7e0c3": "price",
+        "0dc9d8fa-6ffe-473a-8cf5-3826fa58eccf": "stock",
+        "44b3e9e5-8519-4d7f-99c5-65655b5553a0": "occasion",
+        "11fc2771-aece-4f47-8d75-79862f05b04e": "mood",
+        "2b973bd1-d764-42d9-b382-5568e0a317e3": "style",
+        "3effbd4b-b100-429b-a889-f4ca6d33f70b": "season",
+        "116c2b27-5b48-44da-9b94-c5d5d3ec137d": "subCategory",
+        "5fe6b1f4-09c5-433d-8029-7c854a6efa6e": "color",
+        "c36cea48-e39a-4b45-89ea-fb5b4bcfa1f9": "name",
+        "230d2b66-e8b0-4196-b711-0021d1835e5f": "images"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "1d86a0b1-0aac-4355-a6ff-c4fdc5dff35d"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "9c8bf4bd-b4f2-4fb9-bd79-93033ee5eee8"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "6445c5ac-2922-40e1-8158-c5792974a72f"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "JSON",
+    "dbVersion": "2019-09",
+    "appTarget": "JSON",
+    "creationTS": "2024-10-20T19:57:12.108Z",
+    "GUID": "49b61cf0-8049-443b-9c17-43a1b666ba40",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {}
+    },
+    "lastModifTS": "2024-10-21T02:42:39.474Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.8.1"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "633bb2f4-d99b-467f-99b2-8b47ba207604",
+                        "x": 853,
+                        "y": 1030,
+                        "width": 224,
+                        "height": 374,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "633bb2f4-d99b-467f-99b2-8b47ba207604"
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
