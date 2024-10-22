@@ -1,0 +1,13 @@
+{
+  "customerEmail": "test@mail.com",
+  "preferences": {
+    "occasion": "CHRISTMAS",
+    "mood": "ELEGANT",
+    "style": "TRADITIONAL",
+    "season": "WINTER",
+    "budget": {
+      "min": 300,
+      "max": 500
+    }
+  }
+}

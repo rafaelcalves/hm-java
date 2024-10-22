@@ -1,16 +1,20 @@
 package com.hm.outfitrecommendation.dto;
 
-import com.hm.outfitrecommendation.model.classification.Mood;
-import com.hm.outfitrecommendation.model.classification.Occasion;
-import com.hm.outfitrecommendation.model.classification.Season;
-import com.hm.outfitrecommendation.model.classification.Style;
+import com.hm.outfitrecommendation.dto.classification.Mood;
+import com.hm.outfitrecommendation.dto.classification.Occasion;
+import com.hm.outfitrecommendation.dto.classification.Season;
+import com.hm.outfitrecommendation.dto.classification.Style;
+import jakarta.validation.constraints.NotNull;
 
 public record Preferences(
+        @NotNull(message = "{jakarta.validation.constraints.NotNull.message.occasion}")
         Occasion occasion,
         Mood mood,
         Style style,
         Season season,
-        Double minBudget,
-        Double maxBudget
+        Budget budget
 ) {
+    public record Budget(Double min, Double max) {
+
+    }
 }

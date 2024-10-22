@@ -1,3 +1,9 @@
 spring:
   application:
     name: outfit-recommendation
+  mvc:
+    problemdetails:
+      enabled: true
+outfit:
+  base-rating: 0.6
+  units-per-category: 3

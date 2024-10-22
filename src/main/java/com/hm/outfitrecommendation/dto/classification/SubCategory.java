@@ -1,6 +1,6 @@
-package com.hm.outfitrecommendation.model.classification;
+package com.hm.outfitrecommendation.dto.classification;
 
-import static com.hm.outfitrecommendation.model.classification.Category.*;
+import static com.hm.outfitrecommendation.dto.classification.Category.*;
 
 public enum SubCategory {
         HEAD(ACCESSORIES),

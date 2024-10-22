@@ -1,7 +1,7 @@
 package com.hm.outfitrecommendation.service;
 
 import com.hm.outfitrecommendation.dto.Preferences;
-import com.hm.outfitrecommendation.model.Item;
+import com.hm.outfitrecommendation.dto.Item;
 
 import java.util.List;
 

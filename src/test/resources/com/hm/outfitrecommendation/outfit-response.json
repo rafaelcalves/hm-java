@@ -1,0 +1,177 @@
+{
+  "items": [
+    {
+      "_id": "d8b5e9a7-1ef3-4a29-a62f-2d82c60f1730",
+      "sku": "HM2024TOP004",
+      "name": "Long Sleeve Shirt",
+      "description": "Long sleeve cotton shirt, perfect for cold days.",
+      "category": "TOP",
+      "subCategory": "SWEATSHIRT",
+      "color": "GRAY",
+      "price": 59.90,
+      "stock": 120,
+      "occasions": [
+        "DAY_OFF",
+        "WORK"
+      ],
+      "moods": [
+        "BASIC",
+        "ELEGANT"
+      ],
+      "styles": [
+        "CASUAL"
+      ],
+      "seasons": [
+        "AUTUMN",
+        "WINTER"
+      ],
+      "images": [
+        "https://example.com/images/sweatshirt_front.jpg",
+        "https://example.com/images/sweatshirt_back.jpg"
+      ]
+    },
+    {
+      "_id": "7d0f8e4a-d1d3-4b6a-93fe-bd3a83f64b94",
+      "sku": "HM2024BOT001",
+      "name": "Slim Fit Jeans",
+      "description": "Slim fit jeans for a modern look.",
+      "category": "BOTTOM",
+      "subCategory": "TROUSER",
+      "color": "DARKBLUE",
+      "price": 89.90,
+      "stock": 75,
+      "occasions": [
+        "NIGHT_OUT",
+        "WORK"
+      ],
+      "moods": [
+        "COOL"
+      ],
+      "styles": [
+        "YOUNGER",
+        "GLAMOUR"
+      ],
+      "seasons": [
+        "AUTUMN",
+        "WINTER"
+      ],
+      "images": [
+        "https://example.com/images/trouser_front.jpg",
+        "https://example.com/images/trouser_back.jpg"
+      ]
+    },
+    {
+      "_id": "4f4b6ac1-1b68-4d39-8aef-bc13b5a4f7b5",
+      "sku": "HM2024ONE002",
+      "name": "Summer Jumpsuit",
+      "description": "Light and comfortable jumpsuit, perfect for summer.",
+      "category": "ONE_PIECE",
+      "subCategory": "JUMPSUIT",
+      "color": "RED",
+      "price": 99.90,
+      "stock": 60,
+      "occasions": [
+        "DAY_OFF",
+        "DATE"
+      ],
+      "moods": [
+        "CUTE",
+        "COOL"
+      ],
+      "styles": [
+        "CASUAL"
+      ],
+      "seasons": [
+        "SUMMER"
+      ],
+      "images": [
+        "https://example.com/images/jumpsuit.jpg"
+      ]
+    },
+    {
+      "_id": "2f7a3b2e-5f89-4c4b-a44c-8e439f827b5e",
+      "sku": "HM2024OUT004",
+      "name": "Padded Coat",
+      "description": "Warm padded coat, ideal for winter.",
+      "category": "OUTERWEAR",
+      "subCategory": "COAT",
+      "color": "BLACK",
+      "price": 249.90,
+      "stock": 40,
+      "occasions": [
+        "WORK",
+        "NIGHT_OUT"
+      ],
+      "moods": [
+        "ELEGANT"
+      ],
+      "styles": [
+        "TRADITIONAL"
+      ],
+      "seasons": [
+        "WINTER"
+      ],
+      "images": [
+        "https://example.com/images/coat.jpg"
+      ]
+    },
+    {
+      "_id": "6c8d4e0d-9e34-4bb6-9801-8790b8fceac4",
+      "sku": "HM2024SHO003",
+      "name": "Leather Boots",
+      "description": "Elegant and durable leather boots, perfect for winter.",
+      "category": "SHOES",
+      "subCategory": "BOOTS",
+      "color": "BROWN",
+      "price": 199.90,
+      "stock": 30,
+      "occasions": [
+        "WORK",
+        "NIGHT_OUT"
+      ],
+      "moods": [
+        "ELEGANT",
+        "COOL"
+      ],
+      "styles": [
+        "TRADITIONAL"
+      ],
+      "seasons": [
+        "AUTUMN",
+        "WINTER"
+      ],
+      "images": [
+        "https://example.com/images/boots.jpg"
+      ]
+    },
+    {
+      "_id": "e12b4f4a-5f7a-4bfb-b7d2-0b4f8c9ea8c7",
+      "sku": "HM2024ACC001",
+      "name": "Leather Bag",
+      "description": "Elegant leather bag for all occasionss.",
+      "category": "ACCESSORIES",
+      "subCategory": "BAG",
+      "color": "BLACK",
+      "price": 149.90,
+      "stock": 25,
+      "occasions": [
+        "WORK",
+        "WEDDING"
+      ],
+      "moods": [
+        "ELEGANT",
+        "FANCY"
+      ],
+      "styles": [
+        "GLAMOUR"
+      ],
+      "seasons": [
+        "AUTUMN",
+        "WINTER"
+      ],
+      "images": [
+        "https://example.com/images/bag.jpg"
+      ]
+    }
+  ]
+}

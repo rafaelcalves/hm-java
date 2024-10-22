@@ -1,4 +1,4 @@
-package com.hm.outfitrecommendation.model.classification;
+package com.hm.outfitrecommendation.dto.classification;
 
 public enum Mood {
     COOL,

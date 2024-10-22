@@ -24,11 +24,15 @@ ext {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-hateoas'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
     implementation 'org.springframework.cloud:spring-cloud-starter'
     implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
-
     implementation 'org.apache.logging.log4j:log4j-api:2.23.1'
 
+    // used only for colors enum, could be replaced
+    implementation 'org.seleniumhq.selenium:selenium-support:4.25.0'
+
+    testImplementation 'io.hosuaby:inject-resources-junit-jupiter:1.0.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
