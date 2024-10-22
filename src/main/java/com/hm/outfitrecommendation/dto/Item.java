@@ -15,20 +15,20 @@ import java.util.List;
 
 public record Item(
         @JsonProperty("_id")
-        @NotBlank(message = "{jakarta.validation.constraints.NotBlank.message.id}")
+        @NotBlank(message = "{notBlank.message.id}")
         String id,
-        @NotBlank(message = "{jakarta.validation.constraints.NotBlank.message.sku}")
+        @NotBlank(message = "{notBlank.message.sku}")
         String sku,
-        @NotBlank(message = "{jakarta.validation.constraints.NotBlank.message.description}")
+        @NotBlank(message = "{notBlank.message.description}")
         String description,
-        @NotBlank(message = "{jakarta.validation.constraints.NotBlank.message.name}")
+        @NotBlank(message = "{notBlank.message.name}")
         String name,
-        @NotNull(message = "{jakarta.validation.constraints.NotNull.message.category}")
+        @NotNull(message = "{notNull.message.category}")
         Category category,
         SubCategory subCategory,
-        @Nullable @Min(value = 0, message = "{jakarta.validation.constraints.Min.message.price}")
+        @Nullable @Min(value = 0, message = "{min.message.price}")
         Double price,
-        @Nullable @Min(value = 0, message = "{jakarta.validation.constraints.Min.message.stock}")
+        @Nullable @Min(value = 0, message = "{min.message.stock}")
         Integer stock,
         Colors color,
         List<Occasion> occasions,

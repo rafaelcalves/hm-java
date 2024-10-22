@@ -1,0 +1,31 @@
+{
+  "_id": "3",
+  "sku": "HM2024ONE001",
+  "name": "Formal Jumpsuit",
+  "description": "A formal winter jumpsuit for elegant occasionss.",
+  "category": "ONE_PIECE",
+  "subCategory": "JUMPSUIT",
+  "color": "BLACK",
+  "price": 450.00,
+  "stock": 20,
+  "occasions": [
+    "CHRISTMAS",
+    "GRADUATION"
+  ],
+  "moods": [
+    "ELEGANT",
+    "CUTE"
+  ],
+  "styles": [
+    "TRADITIONAL",
+    "NEO_TRADITIONAL"
+  ],
+  "seasons": [
+    "WINTER",
+    "SPRING"
+  ],
+  "images": [
+    "https://example.com/jumpsuit1.jpg"
+  ],
+  "releaseDate": "2024-10-01"
+}

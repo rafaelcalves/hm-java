@@ -7,4 +7,4 @@ spring:
 outfit:
   base-rating: 0.6
   nps-base: 0.3
-  units-per-category: 3
+  units-per-category: 1

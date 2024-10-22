@@ -1,12 +1,10 @@
 package com.hm.outfitrecommendation.controller;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hm.outfitrecommendation.config.ObjectMapperConfig;
-import com.hm.outfitrecommendation.dto.FeedbackRequest;
 import com.hm.outfitrecommendation.dto.OutfitRequest;
 import com.hm.outfitrecommendation.dto.OutfitResponse;
-import com.hm.outfitrecommendation.service.OutfitBuilderService;
+import com.hm.outfitrecommendation.service.impl.OutfitBuilderService;
 import io.hosuaby.inject.resources.junit.jupiter.GivenJsonResource;
 import io.hosuaby.inject.resources.junit.jupiter.GivenTextResource;
 import io.hosuaby.inject.resources.junit.jupiter.TestWithResources;
@@ -22,6 +20,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
+import static org.hamcrest.Matchers.matchesPattern;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.never;
@@ -56,7 +55,7 @@ public class OutfitBuilderControllerTest {
     public String outfitResponseJson;
 
     @GivenJsonResource("/com/hm/outfitrecommendation/controller/feedback-request.json")
-    public FeedbackRequest feedbackRequest;
+    public OutfitRequest feedbackRequest;
 
     @GivenTextResource("/com/hm/outfitrecommendation/controller/feedback-request.json")
     public String feedbackRequestJson;
@@ -94,11 +93,11 @@ public class OutfitBuilderControllerTest {
                 .andExpectAll(status().isBadRequest(),
                         jsonPath("$.title").value(HttpStatus.BAD_REQUEST.getReasonPhrase()),
                         jsonPath("$.status").value(HttpStatus.BAD_REQUEST.value()),
-                        jsonPath("$.detail").value("occasion_error, and customer_error"),
+                        jsonPath("$.detail").value(matchesPattern("^(?=.*occasion_error)(?=.*customer_error).*")),
                         jsonPath("$.instance").value("/outfit"))
                 .andReturn();
 
-        verify(outfitBuilderService, never()).getRecommendedItems(any(FeedbackRequest.class));
+        verify(outfitBuilderService, never()).getRecommendedItems(any(OutfitRequest.class));
     }
 
     @Test
@@ -107,7 +106,7 @@ public class OutfitBuilderControllerTest {
         given(outfitBuilderService.getRecommendedItems(feedbackRequest)).willReturn(outfitResponse);
 
         mockMvc.perform(MockMvcRequestBuilders
-                        .post("/outfit/feedback")
+                        .post("/outfit")
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(feedbackRequestJson)
                         .accept(MediaType.APPLICATION_JSON))

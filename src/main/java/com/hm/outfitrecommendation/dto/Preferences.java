@@ -7,7 +7,7 @@ import com.hm.outfitrecommendation.dto.classification.Style;
 import jakarta.validation.constraints.NotNull;
 
 public record Preferences(
-        @NotNull(message = "{jakarta.validation.constraints.NotNull.message.occasion}")
+        @NotNull(message = "{notNull.message.occasion}")
         Occasion occasion,
         Mood mood,
         Style style,

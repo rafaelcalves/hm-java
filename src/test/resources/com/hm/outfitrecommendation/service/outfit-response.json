@@ -16,7 +16,7 @@
       "seasons": ["WINTER", "SUMMER"],
       "images": ["https://example.com/sweater1.jpg"],
       "releaseDate": "2024-10-01"
-  },
+    },
     {
       "_id": "2",
       "sku": "HM2024BOT001",
@@ -33,7 +33,7 @@
       "seasons": ["WINTER", "AUTUMN"],
       "images": ["https://example.com/trousers1.jpg"],
       "releaseDate": "2024-10-01"
-  },
+    },
     {
       "_id": "3",
       "sku": "HM2024ONE001",
@@ -50,7 +50,7 @@
       "seasons": ["WINTER", "SPRING"],
       "images": ["https://example.com/jumpsuit1.jpg"],
       "releaseDate": "2024-10-01"
-  },
+    },
     {
       "_id": "4",
       "sku": "HM2024OUT001",
@@ -67,7 +67,7 @@
       "seasons": ["WINTER", "SUMMER"],
       "images": ["https://example.com/coat1.jpg"],
       "releaseDate": "2024-10-01"
-  },
+    },
     {
       "_id": "5",
       "sku": "HM2024SHO001",
@@ -84,7 +84,7 @@
       "seasons": ["WINTER", "AUTUMN"],
       "images": ["https://example.com/boots1.jpg"],
       "releaseDate": "2024-10-01"
-  },
+    },
     {
       "_id": "6",
       "sku": "HM2024ACC001",
@@ -101,6 +101,6 @@
       "seasons": ["WINTER", "SPRING"],
       "images": ["https://example.com/belt1.jpg"],
       "releaseDate": "2024-10-01"
-  }
+    }
   ]
 }

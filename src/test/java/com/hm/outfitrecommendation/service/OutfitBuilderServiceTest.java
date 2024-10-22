@@ -1,98 +1,97 @@
 package com.hm.outfitrecommendation.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.hm.outfitrecommendation.MapFactory;
 import com.hm.outfitrecommendation.config.ObjectMapperConfig;
 import com.hm.outfitrecommendation.dto.Item;
 import com.hm.outfitrecommendation.dto.OutfitRequest;
 import com.hm.outfitrecommendation.dto.OutfitResponse;
-import com.hm.outfitrecommendation.service.impl.OutfitBuilderServiceImpl;
+import com.hm.outfitrecommendation.service.impl.ClassificationService;
+import com.hm.outfitrecommendation.service.impl.OutfitBuilderService;
+import com.hm.outfitrecommendation.service.impl.RatingService;
 import io.hosuaby.inject.resources.junit.jupiter.GivenJsonResource;
-import io.hosuaby.inject.resources.junit.jupiter.GivenTextResource;
 import io.hosuaby.inject.resources.junit.jupiter.TestWithResources;
 import io.hosuaby.inject.resources.junit.jupiter.WithJacksonMapper;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.test.util.ReflectionTestUtils;
 
-import javax.management.DescriptorKey;
-import java.math.BigDecimal;
 import java.util.List;
+import java.util.Map;
 
-import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.eq;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 @TestWithResources
 @ExtendWith(MockitoExtension.class)
 public class OutfitBuilderServiceTest {
+    @WithJacksonMapper
+    public final ObjectMapper jsonMapper = ObjectMapperConfig.getObjectMapper();
+    @GivenJsonResource("com/hm/outfitrecommendation/service/outfit-request.json")
+    public OutfitRequest outfitRequest;
+    @GivenJsonResource("com/hm/outfitrecommendation/service/feedback-request.json")
+    public OutfitRequest feedbackRequest;
+    @GivenJsonResource("com/hm/outfitrecommendation/service/feedback-request-nosubmission.json")
+    public OutfitRequest feedbackRequestNoSubmission;
+    @GivenJsonResource("com/hm/outfitrecommendation/service/outfit-response.json")
+    public OutfitResponse outfitResponse;
+    @GivenJsonResource("com/hm/outfitrecommendation/service/items.json")
+    public List<Item> items;
     @InjectMocks
-    private OutfitBuilderServiceImpl outfitBuilderService;
-
+    private OutfitBuilderService outfitBuilderService;
+    @Mock
+    private RatingService ratingService;
+    @Mock
+    private ClassificationService classificationService;
     @Mock
     private AiService aiService;
     @Mock
     private StockService stockService;
 
-    @WithJacksonMapper
-    public final ObjectMapper jsonMapper = ObjectMapperConfig.getObjectMapper();
+    @Test
+    @DisplayName("When request doesn't have feedback, flow should be normal")
+    void whenNotFeedBackShouldFollowTheNormalFlow() {
+        Map<Item, Double> map = MapFactory.createMap(items);
+        when(stockService.getMatchingAvailableItems(outfitRequest.preferences())).thenReturn(items);
+        when(ratingService.validateUserHistoryRating(eq(outfitRequest), any(Item.class))).thenReturn(true);
+        when(ratingService.rateItems(items)).thenReturn(map);
+        when(classificationService.classifyItems(map)).thenReturn(outfitResponse.items());
 
-    @GivenJsonResource("com/hm/outfitrecommendation/service/outfit-request.json")
-    public OutfitRequest outfitRequest;
-    @GivenJsonResource("com/hm/outfitrecommendation/service/items.json")
-    public List<Item> items;
-    @GivenJsonResource("com/hm/outfitrecommendation/service/outfit-response.json")
-    public OutfitResponse outfitResponse;
-    @GivenJsonResource("com/hm/outfitrecommendation/service/outfit-response-filtered.json")
-    public OutfitResponse outfitResponseFiltered;
-    @GivenJsonResource("com/hm/outfitrecommendation/service/item.json")
-    public Item item;
-
-    @BeforeEach
-    void setUp() {
-        ReflectionTestUtils.setField(outfitBuilderService,"userHistorybaseRating", BigDecimal.valueOf(0.6));
-        ReflectionTestUtils.setField(outfitBuilderService,"unitsPerCategory", 1);
+        OutfitResponse result = outfitBuilderService.getRecommendedItems(outfitRequest);
+        assertEquals(outfitResponse, result);
+        verify(aiService, never()).updateUserHistoryWithFeedbackInformation(outfitRequest);
     }
 
     @Test
-    @DisplayName("When all items have the same result on AiService, Should return the first item of each category")
-    void whenAiServiceResultsAreTheSameShouldReturnFirstItemOfEachCategory() {
-        when(stockService.getMatchingAvailableItems(outfitRequest.preferences())).thenReturn(items);
-        when(aiService.getAverageRatingForUserHistory(any(Item.class), eq(outfitRequest.customerEmail()))).thenReturn(BigDecimal.valueOf(0.7));
-        when(aiService.getAverageRatingForItemsComparison(any(Item.class),any(Item.class))).thenReturn(BigDecimal.ONE);
+    @DisplayName("When request have feedback and submission, flow should stop")
+    void whenFeedBackShouldStopAndReturnReceivedItems() {
+        Map<Item, Double> map = MapFactory.createMap(items);
+        doNothing().when(aiService).updateUserHistoryWithFeedbackInformation(feedbackRequestNoSubmission);
+        when(stockService.getMatchingAvailableItems(feedbackRequestNoSubmission.preferences())).thenReturn(items);
+        when(ratingService.validateUserHistoryRating(eq(feedbackRequestNoSubmission), any(Item.class))).thenReturn(true);
+        when(ratingService.rateItems(items)).thenReturn(map);
+        when(classificationService.classifyItems(map)).thenReturn(outfitResponse.items());
 
-        OutfitResponse recommendedItems = outfitBuilderService.getRecommendedItems(outfitRequest);
-        assertThat(recommendedItems.items()).containsExactlyInAnyOrderElementsOf(outfitResponse.items());
+        OutfitResponse result = outfitBuilderService.getRecommendedItems(feedbackRequestNoSubmission);
+        assertEquals(outfitResponse, result);
+
+        verify(aiService, times(1)).updateUserHistoryWithFeedbackInformation(feedbackRequestNoSubmission);
     }
 
     @Test
-    @DisplayName("When a item is filtered by AiService, Should return the first item of each category except the filtered one")
-    void whenAiServiceFiltersAnItemShouldReturnFirstItemOfEachCategoryExceptIt() {
-        when(stockService.getMatchingAvailableItems(outfitRequest.preferences())).thenReturn(items);
-        when(aiService.getAverageRatingForUserHistory(any(Item.class), eq(outfitRequest.customerEmail()))).thenReturn(BigDecimal.valueOf(0.7));
-        when(aiService.getAverageRatingForUserHistory(item, outfitRequest.customerEmail())).thenReturn(BigDecimal.ZERO);
-        when(aiService.getAverageRatingForItemsComparison(any(Item.class),any(Item.class))).thenReturn(BigDecimal.ONE);
+    @DisplayName("When request have feedback but no submission, flow should be reprocessed with feedback")
+    void whenFeedBackShouldFollowReprocessedFeedbackFlow() {
+        doNothing().when(aiService).updateUserHistoryWithFeedbackInformation(feedbackRequest);
 
-        OutfitResponse recommendedItems = outfitBuilderService.getRecommendedItems(outfitRequest);
-        assertThat(recommendedItems.items()).containsExactlyInAnyOrderElementsOf(outfitResponseFiltered.items());
-    }
+        OutfitResponse result = outfitBuilderService.getRecommendedItems(feedbackRequest);
+        assertEquals(outfitResponse, result);
 
-    @Test
-    @DisplayName("When a item is bad rated by AiService, Should return the first item of each category except the bad rated one")
-    void whenAiServiceBadRatesAnItemShouldReturnFirstItemOfEachCategoryExceptIt() {
-        when(stockService.getMatchingAvailableItems(outfitRequest.preferences())).thenReturn(items);
-        when(aiService.getAverageRatingForUserHistory(any(Item.class), eq(outfitRequest.customerEmail()))).thenReturn(BigDecimal.valueOf(0.7));
-        when(aiService.getAverageRatingForItemsComparison(any(Item.class),any(Item.class))).thenReturn(BigDecimal.ONE);
-        when(aiService.getAverageRatingForItemsComparison(eq(item),any(Item.class))).thenReturn(BigDecimal.ZERO);
-
-        OutfitResponse recommendedItems = outfitBuilderService.getRecommendedItems(outfitRequest);
-        assertThat(recommendedItems.items()).containsExactlyInAnyOrderElementsOf(outfitResponseFiltered.items());
+        verify(aiService, times(1)).updateUserHistoryWithFeedbackInformation(feedbackRequest);
+        verify(stockService, never()).getMatchingAvailableItems(feedbackRequest.preferences());
     }
 }

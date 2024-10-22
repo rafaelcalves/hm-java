@@ -1,9 +1,11 @@
 {
   "customerEmail": "",
-  "items": [
-    {
-      "item": {},
-      "note": 0.3
-    }
-  ]
+  "feedback": {
+    "items": [
+      {
+        "item": {},
+        "note": 0.3
+      }
+    ]
+  }
 }

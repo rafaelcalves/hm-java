@@ -1,0 +1,31 @@
+{
+  "_id": "1",
+  "sku": "HM2024TOP001",
+  "name": "Wool Sweater",
+  "description": "A cozy wool sweater perfect for winter gatherings.",
+  "category": "TOP",
+  "subCategory": "SWEATSHIRT",
+  "color": "RED",
+  "price": 350.00,
+  "stock": 25,
+  "occasions": [
+    "CHRISTMAS",
+    "WEDDING"
+  ],
+  "moods": [
+    "ELEGANT",
+    "COOL"
+  ],
+  "styles": [
+    "TRADITIONAL",
+    "CASUAL"
+  ],
+  "seasons": [
+    "WINTER",
+    "SUMMER"
+  ],
+  "images": [
+    "https://example.com/sweater1.jpg"
+  ],
+  "releaseDate": "2024-10-01"
+}
