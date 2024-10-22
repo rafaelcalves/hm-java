@@ -1,5 +1,6 @@
 package com.hm.outfitrecommendation.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.hm.outfitrecommendation.dto.classification.*;
 import jakarta.annotation.Nullable;
@@ -9,6 +10,7 @@ import jakarta.validation.constraints.NotNull;
 import org.openqa.selenium.support.Colors;
 
 import java.net.URI;
+import java.time.LocalDate;
 import java.util.List;
 
 public record Item(
@@ -33,6 +35,7 @@ public record Item(
         List<Mood> moods,
         List<Style> styles,
         List<Season> seasons,
-        List<URI> images
+        List<URI> images,
+        LocalDate releaseDate
 ) {
 }

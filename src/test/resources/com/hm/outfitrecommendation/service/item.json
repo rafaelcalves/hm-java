@@ -1,0 +1,17 @@
+{
+  "_id": "5",
+  "sku": "HM2024SHO001",
+  "name": "Leather Boots",
+  "description": "Elegant leather boots, perfect for winter events.",
+  "category": "SHOES",
+  "subCategory": "BOOTS",
+  "color": "BROWN",
+  "price": 320.00,
+  "stock": 30,
+  "occasions": ["CHRISTMAS", "NIGHT_OUT"],
+  "moods": ["ELEGANT", "BASIC"],
+  "styles": ["TRADITIONAL", "GLAMOUR"],
+  "seasons": ["WINTER", "AUTUMN"],
+  "images": ["https://example.com/boots1.jpg"],
+  "releaseDate": "2024-10-01"
+}

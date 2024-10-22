@@ -13,21 +13,21 @@ import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.*;
+import java.util.function.Function;
 
 @Service
 public class OutfitBuilderServiceImpl implements OutfitBuilderService {
     private final AiService aiService;
     private final StockService stockService;
-    private final BigDecimal userHistorybaseRating;
-    private final Integer unitsPerCategory;
 
-    public OutfitBuilderServiceImpl(AiService aiService, StockService stockService,
-                                    @Value("${outfit.base-rating}") BigDecimal userHistorybaseRating,
-                                    @Value("${outfit.units-per-category}") Integer unitsPerCategory) {
+    @Value("${outfit.units-per-category}")
+    private BigDecimal userHistorybaseRating;
+    @Value("${outfit.base-rating}")
+    private Integer unitsPerCategory;
+
+    public OutfitBuilderServiceImpl(AiService aiService, StockService stockService) {
         this.aiService = aiService;
         this.stockService = stockService;
-        this.userHistorybaseRating = userHistorybaseRating;
-        this.unitsPerCategory = unitsPerCategory;
     }
 
     @Override
@@ -61,9 +61,17 @@ public class OutfitBuilderServiceImpl implements OutfitBuilderService {
 
         itemRatings.entrySet()
                 .stream()
-                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .sorted(getRatingComparator().thenComparing(getItemComparator()))
                 .forEach(entry -> classifyItem(entry.getKey(), categoryCounter, result));
         return result;
+    }
+
+    private static Comparator<Map.Entry<Item, BigDecimal>> getRatingComparator() {
+        return Map.Entry.comparingByValue(Comparator.reverseOrder());
+    }
+
+    private static Comparator<Map.Entry<Item, BigDecimal>> getItemComparator() {
+        return Map.Entry.comparingByKey(Comparator.comparing(Item::releaseDate).reversed());
     }
 
     private void classifyItem(Item item, Map<Category, Integer> categoryCounter, List<Item> result) {

@@ -1,8 +1,8 @@
-package com.hm.outfitrecommendation;
+package com.hm.outfitrecommendation.controller;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hm.outfitrecommendation.controller.OutfitBuilderController;
+import com.hm.outfitrecommendation.config.ObjectMapperConfig;
 import com.hm.outfitrecommendation.dto.FeedbackRequest;
 import com.hm.outfitrecommendation.dto.OutfitRequest;
 import com.hm.outfitrecommendation.dto.OutfitResponse;
@@ -41,31 +41,30 @@ public class OutfitBuilderControllerTest {
     private MockMvc mockMvc;
 
     @WithJacksonMapper
-    public final ObjectMapper jsonMapper = new ObjectMapper()
-            .setSerializationInclusion(JsonInclude.Include.NON_NULL);;
+    public final ObjectMapper jsonMapper = ObjectMapperConfig.getObjectMapper();
 
-    @GivenJsonResource("/com/hm/outfitrecommendation/outfit-request.json")
+    @GivenJsonResource("/com/hm/outfitrecommendation/controller/outfit-request.json")
     public OutfitRequest outfitRequest;
 
-    @GivenTextResource("/com/hm/outfitrecommendation/outfit-request.json")
+    @GivenTextResource("/com/hm/outfitrecommendation/controller/outfit-request.json")
     public String outfitRequestJson;
 
-    @GivenJsonResource("/com/hm/outfitrecommendation/outfit-response.json")
+    @GivenJsonResource("/com/hm/outfitrecommendation/controller/outfit-response.json")
     public OutfitResponse outfitResponse;
 
-    @GivenTextResource("/com/hm/outfitrecommendation/outfit-response.json")
+    @GivenTextResource("/com/hm/outfitrecommendation/controller/outfit-response.json")
     public String outfitResponseJson;
 
-    @GivenJsonResource("/com/hm/outfitrecommendation/feedback-request.json")
+    @GivenJsonResource("/com/hm/outfitrecommendation/controller/feedback-request.json")
     public FeedbackRequest feedbackRequest;
 
-    @GivenTextResource("/com/hm/outfitrecommendation/feedback-request.json")
+    @GivenTextResource("/com/hm/outfitrecommendation/controller/feedback-request.json")
     public String feedbackRequestJson;
 
-    @GivenTextResource("/com/hm/outfitrecommendation/invalid-feedback-request.json")
+    @GivenTextResource("/com/hm/outfitrecommendation/controller/invalid-feedback-request.json")
     public String invalidFeedbackRequestJson;
 
-    @GivenTextResource("/com/hm/outfitrecommendation/invalid-outfit-request.json")
+    @GivenTextResource("/com/hm/outfitrecommendation/controller/invalid-outfit-request.json")
     public String invalidOutfitRequestJson;
 
     @Test
