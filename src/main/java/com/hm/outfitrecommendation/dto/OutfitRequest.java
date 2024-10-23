@@ -9,6 +9,7 @@ public record OutfitRequest (
         String customerEmail,
         @Valid @NotNull(message = "{notNull.message.preferences}")
         Preferences preferences,
+        @Valid
         Feedback feedback
 ){
 }

@@ -30,8 +30,6 @@ dependencies {
     implementation 'org.apache.logging.log4j:log4j-api:2.23.1'
     implementation 'io.hosuaby:inject-resources-spring:1.0.0'
 
-    developmentOnly 'org.springframework.boot:spring-boot-docker-compose'
-
     // used only for colors enum, could be replaced
     implementation 'org.seleniumhq.selenium:selenium-support:4.25.0'
 
