@@ -1,0 +1,7438 @@
+[
+    {
+        "_id": "7e171bd0-fffa-4040-ac21-2b7408852297",
+        "sku": "SKU9554",
+        "name": "Casual Belt",
+        "description": "A fancy belt in silver color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "BELT",
+        "color": "SILVER",
+        "price": 66.14,
+        "stock": 18,
+        "occasion": [
+            "GRADUATION",
+            "WORK",
+            "CHRISTMAS",
+            "WEDDING",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "DATE",
+            "SCHOOL"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image8.jpg",
+            "https://example.com/image13.jpg",
+            "https://example.com/image51.jpg",
+            "https://example.com/image41.jpg"
+        ]
+    },
+    {
+        "_id": "f7d962d6-3f1b-41cc-9cba-48ae00dbc1b0",
+        "sku": "SKU5162",
+        "name": "Cool Skirt",
+        "description": "A comfortable skirt in navy color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SKIRT",
+        "color": "NAVY",
+        "price": 18.63,
+        "stock": 55,
+        "occasion": [
+            "WEDDING",
+            "DAY_OFF",
+            "CHRISTMAS",
+            "SCHOOL"
+        ],
+        "mood": [
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image86.jpg",
+            "https://example.com/image60.jpg",
+            "https://example.com/image77.jpg",
+            "https://example.com/image92.jpg",
+            "https://example.com/image11.jpg"
+        ]
+    },
+    {
+        "_id": "89d58f58-4eca-4d9f-bfef-716bd6c8283d",
+        "sku": "SKU1210",
+        "name": "Cool Bodysuit",
+        "description": "A fancy bodysuit in green color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BODYSUIT",
+        "color": "GREEN",
+        "price": 38.33,
+        "stock": 30,
+        "occasion": [
+            "DATE",
+            "WORK",
+            "WEDDING",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "GRADUATION"
+        ],
+        "mood": [
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image77.jpg",
+            "https://example.com/image15.jpg",
+            "https://example.com/image41.jpg"
+        ]
+    },
+    {
+        "_id": "2789b600-2866-4413-bd0f-e6174ca726ac",
+        "sku": "SKU9875",
+        "name": "Elegant Boots",
+        "description": "A comfortable boots in olive color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BOOTS",
+        "color": "OLIVE",
+        "price": 66.07,
+        "stock": 49,
+        "occasion": [
+            "GRADUATION",
+            "WORK",
+            "CHRISTMAS",
+            "WEDDING",
+            "SCHOOL",
+            "DAY_OFF",
+            "DATE"
+        ],
+        "mood": [
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image73.jpg",
+            "https://example.com/image61.jpg",
+            "https://example.com/image77.jpg",
+            "https://example.com/image26.jpg",
+            "https://example.com/image77.jpg"
+        ]
+    },
+    {
+        "_id": "ad5f1954-a7ca-4f8d-969f-9cfc9351534e",
+        "sku": "SKU3523",
+        "name": "Modern T_shirt",
+        "description": "A modern t_shirt in black color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "T_SHIRT",
+        "color": "BLACK",
+        "price": 34.3,
+        "stock": 4,
+        "occasion": [
+            "WORK"
+        ],
+        "mood": [
+            "ELEGANT",
+            "COOL"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image51.jpg",
+            "https://example.com/image5.jpg"
+        ]
+    },
+    {
+        "_id": "c5e44393-37c8-4591-b8e4-87f6110ef9af",
+        "sku": "SKU2906",
+        "name": "Casual Jewelry",
+        "description": "A classic jewelry in white color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "JEWELRY",
+        "color": "WHITE",
+        "price": 95.9,
+        "stock": 15,
+        "occasion": [
+            "CHRISTMAS",
+            "DATE",
+            "GRADUATION",
+            "SCHOOL",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "WORK"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "GLAMOUR",
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image81.jpg",
+            "https://example.com/image5.jpg",
+            "https://example.com/image79.jpg"
+        ]
+    },
+    {
+        "_id": "58faf4a1-c81f-4fbd-a3f0-9d1f398097f2",
+        "sku": "SKU5817",
+        "name": "Stylish Head",
+        "description": "A stylish head in silver color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "HEAD",
+        "color": "SILVER",
+        "price": 59.28,
+        "stock": 45,
+        "occasion": [
+            "DATE",
+            "GRADUATION",
+            "WORK",
+            "WEDDING",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image9.jpg",
+            "https://example.com/image44.jpg",
+            "https://example.com/image17.jpg",
+            "https://example.com/image8.jpg"
+        ]
+    },
+    {
+        "_id": "185db78c-7c9e-418f-8c31-43873f646d29",
+        "sku": "SKU3564",
+        "name": "Classic T_shirt",
+        "description": "A stylish t_shirt in yellow color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "T_SHIRT",
+        "color": "YELLOW",
+        "price": 27.58,
+        "stock": 77,
+        "occasion": [
+            "DAY_OFF",
+            "GRADUATION",
+            "CHRISTMAS",
+            "SCHOOL"
+        ],
+        "mood": [
+            "BASIC",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "YOUNGER",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image74.jpg",
+            "https://example.com/image24.jpg",
+            "https://example.com/image67.jpg",
+            "https://example.com/image78.jpg"
+        ]
+    },
+    {
+        "_id": "60b41852-1b18-487b-b462-6bae210c08a0",
+        "sku": "SKU4602",
+        "name": "Cool Jumpsuit",
+        "description": "A casual jumpsuit in magenta color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "JUMPSUIT",
+        "color": "MAGENTA",
+        "price": 49.79,
+        "stock": 72,
+        "occasion": [
+            "WORK",
+            "NIGHT_OUT",
+            "SCHOOL",
+            "DAY_OFF",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "BASIC",
+            "COOL",
+            "FANCY",
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR",
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image39.jpg",
+            "https://example.com/image10.jpg",
+            "https://example.com/image73.jpg",
+            "https://example.com/image19.jpg",
+            "https://example.com/image54.jpg"
+        ]
+    },
+    {
+        "_id": "88573d18-61e2-47dc-abfa-bfc822f904d5",
+        "sku": "SKU7990",
+        "name": "Modern Sweater",
+        "description": "A chic sweater in teal color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "SWEATER",
+        "color": "TEAL",
+        "price": 94.33,
+        "stock": 0,
+        "occasion": [
+            "SCHOOL",
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image27.jpg",
+            "https://example.com/image82.jpg",
+            "https://example.com/image3.jpg",
+            "https://example.com/image48.jpg"
+        ]
+    },
+    {
+        "_id": "24cda280-7b08-44aa-8073-3e4252fcb257",
+        "sku": "SKU3239",
+        "name": "Casual Head",
+        "description": "A comfortable head in blue color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "HEAD",
+        "color": "BLUE",
+        "price": 29.35,
+        "stock": 72,
+        "occasion": [
+            "DAY_OFF",
+            "DATE",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image63.jpg",
+            "https://example.com/image87.jpg",
+            "https://example.com/image86.jpg"
+        ]
+    },
+    {
+        "_id": "b89b9879-a795-4039-bb3a-7f6cb27c1c23",
+        "sku": "SKU4821",
+        "name": "Elegant Boots",
+        "description": "A chic boots in navy color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BOOTS",
+        "color": "NAVY",
+        "price": 31.22,
+        "stock": 29,
+        "occasion": [
+            "DATE",
+            "WORK",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image36.jpg",
+            "https://example.com/image16.jpg",
+            "https://example.com/image62.jpg",
+            "https://example.com/image86.jpg",
+            "https://example.com/image18.jpg"
+        ]
+    },
+    {
+        "_id": "3f26a8c4-527f-4518-bb94-d338edcba59a",
+        "sku": "SKU7418",
+        "name": "Comfortable Denning",
+        "description": "A fancy denning in purple color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "DENNING",
+        "color": "PURPLE",
+        "price": 99.71,
+        "stock": 5,
+        "occasion": [
+            "SCHOOL",
+            "DAY_OFF",
+            "GRADUATION",
+            "CHRISTMAS",
+            "WEDDING"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE",
+            "BASIC"
+        ],
+        "style": [
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image74.jpg",
+            "https://example.com/image41.jpg",
+            "https://example.com/image77.jpg",
+            "https://example.com/image26.jpg"
+        ]
+    },
+    {
+        "_id": "1d1ee334-40ec-4f99-88b7-56314f360359",
+        "sku": "SKU8510",
+        "name": "Stylish Romper",
+        "description": "A stylish romper in yellow color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "ROMPER",
+        "color": "YELLOW",
+        "price": 11.35,
+        "stock": 82,
+        "occasion": [
+            "WORK",
+            "SCHOOL",
+            "CHRISTMAS",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "WEDDING"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE",
+            "ELEGANT",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image50.jpg",
+            "https://example.com/image99.jpg"
+        ]
+    },
+    {
+        "_id": "d8768383-7a49-43de-bdb4-195004a80403",
+        "sku": "SKU9792",
+        "name": "Comfortable Bodysuit",
+        "description": "A casual bodysuit in navy color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BODYSUIT",
+        "color": "NAVY",
+        "price": 28.38,
+        "stock": 49,
+        "occasion": [
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "DATE",
+            "WEDDING",
+            "SCHOOL"
+        ],
+        "mood": [
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image39.jpg",
+            "https://example.com/image12.jpg",
+            "https://example.com/image93.jpg"
+        ]
+    },
+    {
+        "_id": "f96611f7-cad2-40d8-bdb9-2411801f2b31",
+        "sku": "SKU1128",
+        "name": "Fancy Boots",
+        "description": "A cool boots in teal color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BOOTS",
+        "color": "TEAL",
+        "price": 57.08,
+        "stock": 15,
+        "occasion": [
+            "SCHOOL",
+            "WEDDING",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "BASIC",
+            "CUTE",
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image85.jpg",
+            "https://example.com/image8.jpg",
+            "https://example.com/image33.jpg"
+        ]
+    },
+    {
+        "_id": "63c8c8a8-32ea-4e24-b9c0-0d5de3b6a7dc",
+        "sku": "SKU5031",
+        "name": "Cool Dress",
+        "description": "A chic dress in black color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "DRESS",
+        "color": "BLACK",
+        "price": 92.27,
+        "stock": 52,
+        "occasion": [
+            "CHRISTMAS",
+            "GRADUATION",
+            "DAY_OFF",
+            "WEDDING",
+            "SCHOOL",
+            "WORK",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "COOL",
+            "FANCY",
+            "CUTE",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image92.jpg",
+            "https://example.com/image1.jpg",
+            "https://example.com/image40.jpg"
+        ]
+    },
+    {
+        "_id": "2ee169bf-90d8-4079-90b4-ee9df825ef9b",
+        "sku": "SKU2554",
+        "name": "Comfortable Sweatshirt",
+        "description": "A trendy sweatshirt in green color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "SWEATSHIRT",
+        "color": "GREEN",
+        "price": 44.17,
+        "stock": 72,
+        "occasion": [
+            "WORK",
+            "GRADUATION",
+            "CHRISTMAS",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "FANCY"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image55.jpg",
+            "https://example.com/image69.jpg",
+            "https://example.com/image73.jpg"
+        ]
+    },
+    {
+        "_id": "f16cbfc9-d44c-4ae5-9a3a-e0b10378251c",
+        "sku": "SKU2315",
+        "name": "Elegant Head",
+        "description": "A fancy head in green color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "HEAD",
+        "color": "GREEN",
+        "price": 38.1,
+        "stock": 90,
+        "occasion": [
+            "SCHOOL",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "DATE",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "COOL",
+            "ELEGANT",
+            "BASIC",
+            "FANCY"
+        ],
+        "style": [
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image4.jpg",
+            "https://example.com/image42.jpg",
+            "https://example.com/image54.jpg",
+            "https://example.com/image88.jpg"
+        ]
+    },
+    {
+        "_id": "834324c0-e89e-40dc-8d36-f3fb907f0cda",
+        "sku": "SKU8750",
+        "name": "Classic Boots",
+        "description": "A stylish boots in silver color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "BOOTS",
+        "color": "SILVER",
+        "price": 14.55,
+        "stock": 16,
+        "occasion": [
+            "DATE",
+            "WEDDING",
+            "DAY_OFF",
+            "SCHOOL"
+        ],
+        "mood": [
+            "COOL",
+            "ELEGANT",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image83.jpg",
+            "https://example.com/image55.jpg"
+        ]
+    },
+    {
+        "_id": "8642021b-72a7-43e4-bb2e-1438a107dd6e",
+        "sku": "SKU8946",
+        "name": "Comfortable Sneaker",
+        "description": "A casual sneaker in maroon color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SNEAKER",
+        "color": "MAROON",
+        "price": 76.65,
+        "stock": 57,
+        "occasion": [
+            "SCHOOL",
+            "DAY_OFF",
+            "GRADUATION",
+            "WEDDING"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image64.jpg"
+        ]
+    },
+    {
+        "_id": "f999eb1e-70e5-4ada-b215-1680a205b06f",
+        "sku": "SKU3128",
+        "name": "Chic Sandal",
+        "description": "A classic sandal in red color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SANDAL",
+        "color": "RED",
+        "price": 24.18,
+        "stock": 29,
+        "occasion": [
+            "GRADUATION",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "COOL"
+        ],
+        "style": [
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image82.jpg",
+            "https://example.com/image42.jpg",
+            "https://example.com/image7.jpg"
+        ]
+    },
+    {
+        "_id": "6f4f25df-c89e-405f-a7e0-f7919c9b51fe",
+        "sku": "SKU8823",
+        "name": "Modern Sandal",
+        "description": "A cool sandal in navy color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "SANDAL",
+        "color": "NAVY",
+        "price": 36.16,
+        "stock": 71,
+        "occasion": [
+            "SCHOOL",
+            "NIGHT_OUT",
+            "DATE"
+        ],
+        "mood": [
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image16.jpg",
+            "https://example.com/image65.jpg",
+            "https://example.com/image100.jpg"
+        ]
+    },
+    {
+        "_id": "f932c607-f522-40e2-b558-f72eb4bc4327",
+        "sku": "SKU9152",
+        "name": "Cool Jewelry",
+        "description": "A trendy jewelry in red color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "JEWELRY",
+        "color": "RED",
+        "price": 42.88,
+        "stock": 92,
+        "occasion": [
+            "WORK",
+            "DATE",
+            "WEDDING",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image88.jpg",
+            "https://example.com/image73.jpg",
+            "https://example.com/image45.jpg",
+            "https://example.com/image18.jpg",
+            "https://example.com/image99.jpg"
+        ]
+    },
+    {
+        "_id": "631f3871-032a-4089-a447-f74edff287ed",
+        "sku": "SKU8420",
+        "name": "Modern Bag",
+        "description": "A fancy bag in gray color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BAG",
+        "color": "GRAY",
+        "price": 58.05,
+        "stock": 15,
+        "occasion": [
+            "SCHOOL",
+            "GRADUATION",
+            "CHRISTMAS",
+            "DATE",
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "COOL",
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image50.jpg",
+            "https://example.com/image46.jpg"
+        ]
+    },
+    {
+        "_id": "b2d8b67a-29ef-4a6d-ac28-8c48753e6320",
+        "sku": "SKU3563",
+        "name": "Stylish Denning",
+        "description": "A classic denning in magenta color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "DENNING",
+        "color": "MAGENTA",
+        "price": 29.66,
+        "stock": 43,
+        "occasion": [
+            "WEDDING",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "SCHOOL",
+            "WORK"
+        ],
+        "mood": [
+            "FANCY",
+            "BASIC",
+            "COOL",
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image100.jpg",
+            "https://example.com/image18.jpg"
+        ]
+    },
+    {
+        "_id": "1d0421d3-66e2-4a1f-8d53-1cb36c27f8c0",
+        "sku": "SKU9729",
+        "name": "Classic Blazer",
+        "description": "A casual blazer in purple color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "BLAZER",
+        "color": "PURPLE",
+        "price": 11.99,
+        "stock": 82,
+        "occasion": [
+            "DATE"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image85.jpg"
+        ]
+    },
+    {
+        "_id": "912e5dad-1439-4b78-ac34-1633435ded44",
+        "sku": "SKU5806",
+        "name": "Trendy Jewelry",
+        "description": "A classic jewelry in maroon color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "JEWELRY",
+        "color": "MAROON",
+        "price": 35.41,
+        "stock": 87,
+        "occasion": [
+            "WORK",
+            "DATE",
+            "GRADUATION",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "ELEGANT"
+        ],
+        "style": [
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image63.jpg",
+            "https://example.com/image6.jpg",
+            "https://example.com/image59.jpg",
+            "https://example.com/image15.jpg",
+            "https://example.com/image78.jpg"
+        ]
+    },
+    {
+        "_id": "2999cbe9-95ea-4f7e-b65f-d5c6179e3e04",
+        "sku": "SKU8458",
+        "name": "Casual Sweatshirt",
+        "description": "A chic sweatshirt in olive color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "SWEATSHIRT",
+        "color": "OLIVE",
+        "price": 28.53,
+        "stock": 17,
+        "occasion": [
+            "SCHOOL"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE",
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "CASUAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image76.jpg",
+            "https://example.com/image98.jpg"
+        ]
+    },
+    {
+        "_id": "2cdfcfd5-f10f-46d7-a583-82c60fa977db",
+        "sku": "SKU5369",
+        "name": "Comfortable Belt",
+        "description": "A comfortable belt in green color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "BELT",
+        "color": "GREEN",
+        "price": 34.68,
+        "stock": 60,
+        "occasion": [
+            "SCHOOL",
+            "DATE",
+            "WEDDING"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image93.jpg",
+            "https://example.com/image11.jpg",
+            "https://example.com/image69.jpg"
+        ]
+    },
+    {
+        "_id": "039e9f64-55f6-4727-ae14-2002eefe22a9",
+        "sku": "SKU5226",
+        "name": "Classic Belt",
+        "description": "A chic belt in red color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BELT",
+        "color": "RED",
+        "price": 45.62,
+        "stock": 31,
+        "occasion": [
+            "SCHOOL",
+            "CHRISTMAS",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "BASIC",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image74.jpg",
+            "https://example.com/image65.jpg",
+            "https://example.com/image77.jpg",
+            "https://example.com/image56.jpg",
+            "https://example.com/image79.jpg"
+        ]
+    },
+    {
+        "_id": "52886fca-ca15-44a0-85b3-52ffe461190b",
+        "sku": "SKU1795",
+        "name": "Fancy Skirt",
+        "description": "A casual skirt in cyan color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SKIRT",
+        "color": "CYAN",
+        "price": 65.33,
+        "stock": 18,
+        "occasion": [
+            "SCHOOL",
+            "GRADUATION",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "WORK",
+            "WEDDING",
+            "DATE"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image76.jpg"
+        ]
+    },
+    {
+        "_id": "01803606-ba2f-4fb1-9e54-d1af1b04b088",
+        "sku": "SKU2868",
+        "name": "Fancy Heels",
+        "description": "A elegant heels in cyan color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "HEELS",
+        "color": "CYAN",
+        "price": 30.26,
+        "stock": 61,
+        "occasion": [
+            "DAY_OFF",
+            "SCHOOL",
+            "WORK",
+            "NIGHT_OUT",
+            "GRADUATION"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC",
+            "CUTE",
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image56.jpg",
+            "https://example.com/image69.jpg",
+            "https://example.com/image41.jpg",
+            "https://example.com/image22.jpg"
+        ]
+    },
+    {
+        "_id": "b5555234-4bae-4b2a-b23b-408806269a4d",
+        "sku": "SKU6980",
+        "name": "Cool Head",
+        "description": "A elegant head in red color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "HEAD",
+        "color": "RED",
+        "price": 81.0,
+        "stock": 55,
+        "occasion": [
+            "GRADUATION"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE",
+            "ELEGANT",
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image63.jpg",
+            "https://example.com/image9.jpg",
+            "https://example.com/image87.jpg",
+            "https://example.com/image92.jpg"
+        ]
+    },
+    {
+        "_id": "f7176093-61be-41a8-885e-56384b01f593",
+        "sku": "SKU4929",
+        "name": "Cool Romper",
+        "description": "A elegant romper in gray color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "ROMPER",
+        "color": "GRAY",
+        "price": 81.02,
+        "stock": 30,
+        "occasion": [
+            "SCHOOL",
+            "NIGHT_OUT",
+            "WORK",
+            "GRADUATION"
+        ],
+        "mood": [
+            "BASIC",
+            "FANCY",
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image77.jpg",
+            "https://example.com/image51.jpg",
+            "https://example.com/image60.jpg",
+            "https://example.com/image92.jpg"
+        ]
+    },
+    {
+        "_id": "3db42495-786a-46e6-972b-77f2633af7e7",
+        "sku": "SKU1265",
+        "name": "Trendy Denning",
+        "description": "A elegant denning in olive color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "DENNING",
+        "color": "OLIVE",
+        "price": 44.27,
+        "stock": 36,
+        "occasion": [
+            "DATE",
+            "GRADUATION",
+            "SCHOOL",
+            "NIGHT_OUT",
+            "WORK"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE",
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image15.jpg",
+            "https://example.com/image65.jpg"
+        ]
+    },
+    {
+        "_id": "ac4bac82-e4fd-4c50-b5ab-edd3b84eceac",
+        "sku": "SKU4011",
+        "name": "Cool Denning",
+        "description": "A fancy denning in purple color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "DENNING",
+        "color": "PURPLE",
+        "price": 27.91,
+        "stock": 99,
+        "occasion": [
+            "SCHOOL",
+            "WORK",
+            "DATE",
+            "GRADUATION"
+        ],
+        "mood": [
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image17.jpg",
+            "https://example.com/image87.jpg",
+            "https://example.com/image25.jpg"
+        ]
+    },
+    {
+        "_id": "ecb31ba7-729d-4c76-a39e-cc24f23e757b",
+        "sku": "SKU2847",
+        "name": "Comfortable T_shirt",
+        "description": "A chic t_shirt in olive color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "T_SHIRT",
+        "color": "OLIVE",
+        "price": 37.37,
+        "stock": 30,
+        "occasion": [
+            "DAY_OFF",
+            "CHRISTMAS",
+            "NIGHT_OUT",
+            "WORK",
+            "DATE",
+            "WEDDING",
+            "GRADUATION",
+            "SCHOOL"
+        ],
+        "mood": [
+            "CUTE"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image56.jpg",
+            "https://example.com/image78.jpg"
+        ]
+    },
+    {
+        "_id": "1d01f2f0-edb7-4c85-aa0b-43b43716bb60",
+        "sku": "SKU1972",
+        "name": "Comfortable Sweatshirt",
+        "description": "A casual sweatshirt in teal color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "SWEATSHIRT",
+        "color": "TEAL",
+        "price": 72.28,
+        "stock": 77,
+        "occasion": [
+            "WORK",
+            "GRADUATION",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "FANCY",
+            "BASIC",
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image81.jpg",
+            "https://example.com/image38.jpg",
+            "https://example.com/image5.jpg",
+            "https://example.com/image97.jpg"
+        ]
+    },
+    {
+        "_id": "96825017-f3f0-4876-8eff-9d72caed5b24",
+        "sku": "SKU1707",
+        "name": "Modern Trouser",
+        "description": "A comfortable trouser in black color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "TROUSER",
+        "color": "BLACK",
+        "price": 72.41,
+        "stock": 82,
+        "occasion": [
+            "NIGHT_OUT",
+            "SCHOOL",
+            "DAY_OFF",
+            "CHRISTMAS",
+            "WEDDING"
+        ],
+        "mood": [
+            "COOL",
+            "FANCY",
+            "BASIC",
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image80.jpg"
+        ]
+    },
+    {
+        "_id": "a65bd8d4-5275-4033-ab8d-5af4b7b4ff50",
+        "sku": "SKU6943",
+        "name": "Stylish Jewelry",
+        "description": "A stylish jewelry in yellow color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "JEWELRY",
+        "color": "YELLOW",
+        "price": 87.65,
+        "stock": 96,
+        "occasion": [
+            "DATE"
+        ],
+        "mood": [
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image93.jpg"
+        ]
+    },
+    {
+        "_id": "c13242c4-f429-48d5-ba3f-9324d21f33ff",
+        "sku": "SKU6768",
+        "name": "Cool Jumpsuit",
+        "description": "A trendy jumpsuit in olive color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "JUMPSUIT",
+        "color": "OLIVE",
+        "price": 99.23,
+        "stock": 74,
+        "occasion": [
+            "WORK",
+            "WEDDING",
+            "NIGHT_OUT",
+            "SCHOOL",
+            "DATE",
+            "GRADUATION",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image29.jpg",
+            "https://example.com/image17.jpg",
+            "https://example.com/image21.jpg",
+            "https://example.com/image12.jpg"
+        ]
+    },
+    {
+        "_id": "6234beca-1149-4959-9351-6bef2b7e00bf",
+        "sku": "SKU1373",
+        "name": "Stylish Jacket",
+        "description": "A classic jacket in gray color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "JACKET",
+        "color": "GRAY",
+        "price": 41.42,
+        "stock": 90,
+        "occasion": [
+            "WEDDING"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "GLAMOUR"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image46.jpg",
+            "https://example.com/image6.jpg",
+            "https://example.com/image78.jpg",
+            "https://example.com/image40.jpg"
+        ]
+    },
+    {
+        "_id": "2e014527-88e0-4082-9bb9-f8f19128167d",
+        "sku": "SKU1546",
+        "name": "Classic Jewelry",
+        "description": "A elegant jewelry in purple color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "JEWELRY",
+        "color": "PURPLE",
+        "price": 24.29,
+        "stock": 15,
+        "occasion": [
+            "WEDDING",
+            "DATE",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "FANCY",
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image44.jpg",
+            "https://example.com/image73.jpg"
+        ]
+    },
+    {
+        "_id": "35f46174-6602-4913-8039-9c4bd30a9290",
+        "sku": "SKU9505",
+        "name": "Chic Belt",
+        "description": "A cool belt in olive color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "BELT",
+        "color": "OLIVE",
+        "price": 63.51,
+        "stock": 62,
+        "occasion": [
+            "WEDDING",
+            "NIGHT_OUT",
+            "DATE",
+            "CHRISTMAS",
+            "GRADUATION"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image54.jpg",
+            "https://example.com/image85.jpg",
+            "https://example.com/image71.jpg"
+        ]
+    },
+    {
+        "_id": "48ca752f-e232-42d6-8d6f-6e865edb4d46",
+        "sku": "SKU3824",
+        "name": "Modern Romper",
+        "description": "A chic romper in yellow color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "ROMPER",
+        "color": "YELLOW",
+        "price": 21.88,
+        "stock": 33,
+        "occasion": [
+            "SCHOOL",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image98.jpg",
+            "https://example.com/image12.jpg",
+            "https://example.com/image59.jpg",
+            "https://example.com/image12.jpg",
+            "https://example.com/image66.jpg"
+        ]
+    },
+    {
+        "_id": "ca6ffd86-0730-487a-99a9-d3ab429de6b8",
+        "sku": "SKU2031",
+        "name": "Comfortable Shirt",
+        "description": "A elegant shirt in purple color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "SHIRT",
+        "color": "PURPLE",
+        "price": 10.16,
+        "stock": 99,
+        "occasion": [
+            "DAY_OFF",
+            "CHRISTMAS",
+            "WORK",
+            "DATE",
+            "WEDDING",
+            "SCHOOL",
+            "GRADUATION"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "BASIC",
+            "ELEGANT",
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image29.jpg",
+            "https://example.com/image95.jpg"
+        ]
+    },
+    {
+        "_id": "597906a9-69e9-4e5f-898c-71e22234d665",
+        "sku": "SKU1873",
+        "name": "Classic Heels",
+        "description": "A elegant heels in green color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "HEELS",
+        "color": "GREEN",
+        "price": 99.21,
+        "stock": 73,
+        "occasion": [
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image39.jpg",
+            "https://example.com/image38.jpg"
+        ]
+    },
+    {
+        "_id": "822842d4-f015-4e1f-9304-23234212b06a",
+        "sku": "SKU8377",
+        "name": "Trendy T_shirt",
+        "description": "A stylish t_shirt in gray color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "T_SHIRT",
+        "color": "GRAY",
+        "price": 42.76,
+        "stock": 28,
+        "occasion": [
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "SCHOOL",
+            "GRADUATION"
+        ],
+        "mood": [
+            "COOL"
+        ],
+        "style": [
+            "GLAMOUR",
+            "CASUAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image16.jpg",
+            "https://example.com/image60.jpg",
+            "https://example.com/image3.jpg",
+            "https://example.com/image20.jpg",
+            "https://example.com/image9.jpg"
+        ]
+    },
+    {
+        "_id": "84f35dc4-6077-4531-9ec6-848acdd72b78",
+        "sku": "SKU7687",
+        "name": "Cool Sweater",
+        "description": "A cool sweater in silver color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SWEATER",
+        "color": "SILVER",
+        "price": 22.92,
+        "stock": 46,
+        "occasion": [
+            "SCHOOL",
+            "WORK",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT",
+            "COOL",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image97.jpg",
+            "https://example.com/image46.jpg",
+            "https://example.com/image69.jpg"
+        ]
+    },
+    {
+        "_id": "236f6329-9984-4b6b-b8fd-db5407837232",
+        "sku": "SKU9259",
+        "name": "Trendy T_shirt",
+        "description": "A casual t_shirt in magenta color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "T_SHIRT",
+        "color": "MAGENTA",
+        "price": 14.11,
+        "stock": 59,
+        "occasion": [
+            "DAY_OFF",
+            "CHRISTMAS",
+            "GRADUATION",
+            "DATE",
+            "WEDDING",
+            "WORK",
+            "NIGHT_OUT",
+            "SCHOOL"
+        ],
+        "mood": [
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image39.jpg",
+            "https://example.com/image42.jpg",
+            "https://example.com/image5.jpg",
+            "https://example.com/image52.jpg"
+        ]
+    },
+    {
+        "_id": "047c64eb-8e35-4130-bc83-d159d1f80132",
+        "sku": "SKU4161",
+        "name": "Casual Denning",
+        "description": "A comfortable denning in red color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "DENNING",
+        "color": "RED",
+        "price": 72.43,
+        "stock": 85,
+        "occasion": [
+            "WEDDING",
+            "NIGHT_OUT",
+            "GRADUATION",
+            "SCHOOL",
+            "DAY_OFF",
+            "CHRISTMAS",
+            "WORK"
+        ],
+        "mood": [
+            "BASIC"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image70.jpg",
+            "https://example.com/image6.jpg",
+            "https://example.com/image81.jpg",
+            "https://example.com/image72.jpg"
+        ]
+    },
+    {
+        "_id": "d1643943-25b7-422a-95f7-3cab9709c34b",
+        "sku": "SKU4697",
+        "name": "Cool Jewelry",
+        "description": "A elegant jewelry in gray color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "JEWELRY",
+        "color": "GRAY",
+        "price": 60.15,
+        "stock": 44,
+        "occasion": [
+            "DAY_OFF",
+            "WORK",
+            "NIGHT_OUT",
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image6.jpg",
+            "https://example.com/image29.jpg",
+            "https://example.com/image71.jpg",
+            "https://example.com/image34.jpg"
+        ]
+    },
+    {
+        "_id": "211abf5e-0314-4838-aab9-d64b04f699d8",
+        "sku": "SKU3187",
+        "name": "Modern Shirt",
+        "description": "A classic shirt in black color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "SHIRT",
+        "color": "BLACK",
+        "price": 50.67,
+        "stock": 14,
+        "occasion": [
+            "WORK",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "BASIC",
+            "ELEGANT",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image7.jpg"
+        ]
+    },
+    {
+        "_id": "d86ce32a-cd72-4dbb-983d-0be57d175fd8",
+        "sku": "SKU5649",
+        "name": "Classic Sneaker",
+        "description": "A trendy sneaker in cyan color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SNEAKER",
+        "color": "CYAN",
+        "price": 22.77,
+        "stock": 69,
+        "occasion": [
+            "WORK",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "GRADUATION",
+            "WEDDING",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image84.jpg",
+            "https://example.com/image24.jpg",
+            "https://example.com/image87.jpg"
+        ]
+    },
+    {
+        "_id": "5bea83d7-8b67-40b8-a564-1f780ce86981",
+        "sku": "SKU7722",
+        "name": "Stylish Boots",
+        "description": "A casual boots in navy color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "BOOTS",
+        "color": "NAVY",
+        "price": 93.7,
+        "stock": 60,
+        "occasion": [
+            "GRADUATION",
+            "SCHOOL",
+            "WORK",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image80.jpg"
+        ]
+    },
+    {
+        "_id": "946b9c0e-858b-40d8-ae55-d8d5eaf23ae9",
+        "sku": "SKU8037",
+        "name": "Chic Skirt",
+        "description": "A elegant skirt in blue color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SKIRT",
+        "color": "BLUE",
+        "price": 62.57,
+        "stock": 70,
+        "occasion": [
+            "WORK",
+            "NIGHT_OUT",
+            "DATE",
+            "SCHOOL",
+            "DAY_OFF",
+            "WEDDING",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC",
+            "COOL",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image7.jpg",
+            "https://example.com/image59.jpg",
+            "https://example.com/image73.jpg",
+            "https://example.com/image19.jpg"
+        ]
+    },
+    {
+        "_id": "11e3f2d4-d524-4f1a-b845-af97e2b66df0",
+        "sku": "SKU6649",
+        "name": "Elegant Sweatshirt",
+        "description": "A classic sweatshirt in olive color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SWEATSHIRT",
+        "color": "OLIVE",
+        "price": 65.86,
+        "stock": 60,
+        "occasion": [
+            "SCHOOL",
+            "NIGHT_OUT",
+            "GRADUATION",
+            "CHRISTMAS",
+            "WORK",
+            "DATE",
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC",
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image76.jpg"
+        ]
+    },
+    {
+        "_id": "fba21e17-f3e8-44e8-8f5e-08aea03ae136",
+        "sku": "SKU3415",
+        "name": "Chic Denning",
+        "description": "A cool denning in gray color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "DENNING",
+        "color": "GRAY",
+        "price": 97.35,
+        "stock": 32,
+        "occasion": [
+            "WEDDING"
+        ],
+        "mood": [
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "WINTER",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image67.jpg",
+            "https://example.com/image100.jpg",
+            "https://example.com/image67.jpg",
+            "https://example.com/image90.jpg"
+        ]
+    },
+    {
+        "_id": "afed5804-44c8-44b9-a27a-c116e5814e5f",
+        "sku": "SKU6035",
+        "name": "Fancy Jewelry",
+        "description": "A comfortable jewelry in yellow color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "JEWELRY",
+        "color": "YELLOW",
+        "price": 76.97,
+        "stock": 54,
+        "occasion": [
+            "WEDDING",
+            "CHRISTMAS",
+            "GRADUATION",
+            "DATE",
+            "WORK",
+            "NIGHT_OUT",
+            "SCHOOL",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "YOUNGER",
+            "CASUAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image53.jpg",
+            "https://example.com/image75.jpg",
+            "https://example.com/image73.jpg"
+        ]
+    },
+    {
+        "_id": "15dd77ce-bf76-4996-af66-61316f31b22e",
+        "sku": "SKU1123",
+        "name": "Stylish Bodysuit",
+        "description": "A fancy bodysuit in magenta color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BODYSUIT",
+        "color": "MAGENTA",
+        "price": 45.74,
+        "stock": 6,
+        "occasion": [
+            "DAY_OFF",
+            "GRADUATION",
+            "SCHOOL",
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "WORK",
+            "DATE",
+            "WEDDING"
+        ],
+        "mood": [
+            "COOL",
+            "BASIC",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image72.jpg"
+        ]
+    },
+    {
+        "_id": "b38fd3fa-48b4-422b-a44f-535d15d9ebb2",
+        "sku": "SKU3744",
+        "name": "Chic Denning",
+        "description": "A chic denning in olive color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "DENNING",
+        "color": "OLIVE",
+        "price": 70.88,
+        "stock": 21,
+        "occasion": [
+            "WORK",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image14.jpg"
+        ]
+    },
+    {
+        "_id": "7b9571a9-5aa9-43d2-be85-21ca15e8dffa",
+        "sku": "SKU9914",
+        "name": "Fancy Tanktop",
+        "description": "A stylish tanktop in purple color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "TANKTOP",
+        "color": "PURPLE",
+        "price": 93.5,
+        "stock": 85,
+        "occasion": [
+            "WORK",
+            "DAY_OFF",
+            "WEDDING",
+            "SCHOOL",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "BASIC",
+            "COOL"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image21.jpg",
+            "https://example.com/image23.jpg",
+            "https://example.com/image77.jpg",
+            "https://example.com/image4.jpg"
+        ]
+    },
+    {
+        "_id": "1472823b-c3dd-4724-9bda-5312c76189c9",
+        "sku": "SKU3456",
+        "name": "Classic Sweatshirt",
+        "description": "A classic sweatshirt in silver color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "SWEATSHIRT",
+        "color": "SILVER",
+        "price": 82.8,
+        "stock": 8,
+        "occasion": [
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "COOL",
+            "BASIC",
+            "ELEGANT",
+            "FANCY"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "TRADITIONAL",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image6.jpg",
+            "https://example.com/image83.jpg",
+            "https://example.com/image65.jpg",
+            "https://example.com/image15.jpg",
+            "https://example.com/image81.jpg"
+        ]
+    },
+    {
+        "_id": "455bdab7-e927-4bc6-a151-acff9decbbdd",
+        "sku": "SKU5371",
+        "name": "Chic Head",
+        "description": "A modern head in navy color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "HEAD",
+        "color": "NAVY",
+        "price": 96.35,
+        "stock": 36,
+        "occasion": [
+            "DAY_OFF",
+            "SCHOOL"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image81.jpg",
+            "https://example.com/image29.jpg"
+        ]
+    },
+    {
+        "_id": "fda039dc-f248-4ff2-a17c-e4c7cfddad43",
+        "sku": "SKU7483",
+        "name": "Casual Jumpsuit",
+        "description": "A fancy jumpsuit in purple color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "JUMPSUIT",
+        "color": "PURPLE",
+        "price": 42.39,
+        "stock": 76,
+        "occasion": [
+            "SCHOOL",
+            "NIGHT_OUT",
+            "GRADUATION",
+            "DAY_OFF",
+            "DATE",
+            "WORK",
+            "CHRISTMAS",
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "BASIC",
+            "CUTE"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image60.jpg",
+            "https://example.com/image91.jpg",
+            "https://example.com/image30.jpg"
+        ]
+    },
+    {
+        "_id": "b362f182-d46b-499b-8a80-ec146757ac24",
+        "sku": "SKU5059",
+        "name": "Modern Jacket",
+        "description": "A casual jacket in teal color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "JACKET",
+        "color": "TEAL",
+        "price": 20.18,
+        "stock": 100,
+        "occasion": [
+            "GRADUATION",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "COOL"
+        ],
+        "style": [
+            "YOUNGER",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image59.jpg",
+            "https://example.com/image25.jpg",
+            "https://example.com/image18.jpg"
+        ]
+    },
+    {
+        "_id": "40400b06-0f52-4984-a7d0-b23c03b977f4",
+        "sku": "SKU5246",
+        "name": "Casual Bodysuit",
+        "description": "A stylish bodysuit in purple color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "BODYSUIT",
+        "color": "PURPLE",
+        "price": 15.4,
+        "stock": 13,
+        "occasion": [
+            "WORK",
+            "DATE",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER",
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image6.jpg",
+            "https://example.com/image2.jpg",
+            "https://example.com/image63.jpg",
+            "https://example.com/image70.jpg"
+        ]
+    },
+    {
+        "_id": "b10c021d-a276-41b4-beca-0803d518171d",
+        "sku": "SKU4269",
+        "name": "Trendy Jewelry",
+        "description": "A modern jewelry in red color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "JEWELRY",
+        "color": "RED",
+        "price": 19.46,
+        "stock": 61,
+        "occasion": [
+            "CHRISTMAS",
+            "SCHOOL",
+            "DATE",
+            "GRADUATION"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL",
+            "BASIC",
+            "CUTE",
+            "ELEGANT"
+        ],
+        "style": [
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image66.jpg",
+            "https://example.com/image68.jpg",
+            "https://example.com/image44.jpg"
+        ]
+    },
+    {
+        "_id": "e619fb66-495a-432e-b0f4-099a93115e04",
+        "sku": "SKU8682",
+        "name": "Modern Jumpsuit",
+        "description": "A casual jumpsuit in maroon color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "JUMPSUIT",
+        "color": "MAROON",
+        "price": 53.81,
+        "stock": 67,
+        "occasion": [
+            "SCHOOL",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "CUTE",
+            "BASIC"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image30.jpg",
+            "https://example.com/image44.jpg",
+            "https://example.com/image25.jpg",
+            "https://example.com/image42.jpg"
+        ]
+    },
+    {
+        "_id": "6ccaf80d-d49b-4723-94bc-b0df4bcdc2b5",
+        "sku": "SKU6912",
+        "name": "Elegant Dress",
+        "description": "A modern dress in silver color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "DRESS",
+        "color": "SILVER",
+        "price": 70.61,
+        "stock": 75,
+        "occasion": [
+            "SCHOOL",
+            "WEDDING",
+            "WORK"
+        ],
+        "mood": [
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image69.jpg",
+            "https://example.com/image85.jpg",
+            "https://example.com/image30.jpg",
+            "https://example.com/image42.jpg",
+            "https://example.com/image37.jpg"
+        ]
+    },
+    {
+        "_id": "76a21a61-bf96-4593-b9cb-f339853adcf8",
+        "sku": "SKU6735",
+        "name": "Cool Tanktop",
+        "description": "A trendy tanktop in magenta color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "TANKTOP",
+        "color": "MAGENTA",
+        "price": 18.75,
+        "stock": 68,
+        "occasion": [
+            "WEDDING",
+            "DATE",
+            "GRADUATION",
+            "SCHOOL",
+            "NIGHT_OUT",
+            "WORK"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image92.jpg"
+        ]
+    },
+    {
+        "_id": "56cd9f96-91d4-43ad-a6dd-e8b62aa022a6",
+        "sku": "SKU6304",
+        "name": "Fancy Sneaker",
+        "description": "A casual sneaker in blue color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SNEAKER",
+        "color": "BLUE",
+        "price": 38.62,
+        "stock": 17,
+        "occasion": [
+            "DATE",
+            "WEDDING",
+            "WORK",
+            "GRADUATION"
+        ],
+        "mood": [
+            "COOL",
+            "FANCY",
+            "BASIC",
+            "CUTE",
+            "ELEGANT"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image27.jpg",
+            "https://example.com/image56.jpg",
+            "https://example.com/image13.jpg",
+            "https://example.com/image1.jpg",
+            "https://example.com/image49.jpg"
+        ]
+    },
+    {
+        "_id": "6d3afe5a-62f2-4ce0-baf5-aeedb8c2d255",
+        "sku": "SKU5178",
+        "name": "Stylish T_shirt",
+        "description": "A trendy t_shirt in navy color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "T_SHIRT",
+        "color": "NAVY",
+        "price": 18.87,
+        "stock": 26,
+        "occasion": [
+            "DATE",
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "GRADUATION"
+        ],
+        "mood": [
+            "BASIC",
+            "COOL",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image93.jpg",
+            "https://example.com/image86.jpg",
+            "https://example.com/image64.jpg"
+        ]
+    },
+    {
+        "_id": "0492c0d8-083b-45c6-800a-2d6c0df5ad2e",
+        "sku": "SKU6905",
+        "name": "Elegant Trouser",
+        "description": "A stylish trouser in yellow color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "TROUSER",
+        "color": "YELLOW",
+        "price": 28.79,
+        "stock": 59,
+        "occasion": [
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE",
+            "BASIC",
+            "COOL"
+        ],
+        "style": [
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image30.jpg",
+            "https://example.com/image99.jpg",
+            "https://example.com/image35.jpg",
+            "https://example.com/image63.jpg",
+            "https://example.com/image75.jpg"
+        ]
+    },
+    {
+        "_id": "492c77fa-9cf4-4ee8-b548-b1e293e0cb6a",
+        "sku": "SKU6931",
+        "name": "Comfortable Blazer",
+        "description": "A classic blazer in olive color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "BLAZER",
+        "color": "OLIVE",
+        "price": 40.55,
+        "stock": 15,
+        "occasion": [
+            "GRADUATION",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image79.jpg",
+            "https://example.com/image40.jpg",
+            "https://example.com/image29.jpg"
+        ]
+    },
+    {
+        "_id": "dc9537f2-9c0c-42f0-b877-623afbe9a5f8",
+        "sku": "SKU2328",
+        "name": "Comfortable Sweatshirt",
+        "description": "A modern sweatshirt in blue color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "SWEATSHIRT",
+        "color": "BLUE",
+        "price": 96.1,
+        "stock": 90,
+        "occasion": [
+            "SCHOOL",
+            "DATE",
+            "GRADUATION",
+            "DAY_OFF",
+            "WORK"
+        ],
+        "mood": [
+            "FANCY",
+            "BASIC",
+            "ELEGANT",
+            "COOL",
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image86.jpg",
+            "https://example.com/image26.jpg",
+            "https://example.com/image19.jpg",
+            "https://example.com/image94.jpg"
+        ]
+    },
+    {
+        "_id": "c99e0921-9020-410e-9f62-352641ff8e7a",
+        "sku": "SKU4647",
+        "name": "Trendy Bag",
+        "description": "A fancy bag in maroon color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "BAG",
+        "color": "MAROON",
+        "price": 90.62,
+        "stock": 79,
+        "occasion": [
+            "CHRISTMAS",
+            "GRADUATION",
+            "DAY_OFF",
+            "WEDDING",
+            "WORK",
+            "SCHOOL",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image53.jpg",
+            "https://example.com/image67.jpg",
+            "https://example.com/image58.jpg",
+            "https://example.com/image66.jpg"
+        ]
+    },
+    {
+        "_id": "5e987336-07e3-4867-aa30-d12a370ab7f7",
+        "sku": "SKU1892",
+        "name": "Modern Trouser",
+        "description": "A chic trouser in black color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "TROUSER",
+        "color": "BLACK",
+        "price": 14.62,
+        "stock": 76,
+        "occasion": [
+            "DAY_OFF",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image87.jpg",
+            "https://example.com/image36.jpg",
+            "https://example.com/image26.jpg",
+            "https://example.com/image59.jpg",
+            "https://example.com/image21.jpg"
+        ]
+    },
+    {
+        "_id": "b0be0822-ba82-4672-b00f-1299dfa462e0",
+        "sku": "SKU8494",
+        "name": "Chic Romper",
+        "description": "A chic romper in blue color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "ROMPER",
+        "color": "BLUE",
+        "price": 12.06,
+        "stock": 69,
+        "occasion": [
+            "SCHOOL"
+        ],
+        "mood": [
+            "BASIC",
+            "COOL",
+            "CUTE",
+            "ELEGANT",
+            "FANCY"
+        ],
+        "style": [
+            "GLAMOUR",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image92.jpg",
+            "https://example.com/image99.jpg",
+            "https://example.com/image16.jpg"
+        ]
+    },
+    {
+        "_id": "139ee115-f56b-43b5-acb2-733e53caaedc",
+        "sku": "SKU8673",
+        "name": "Casual Shirt",
+        "description": "A classic shirt in red color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SHIRT",
+        "color": "RED",
+        "price": 85.45,
+        "stock": 24,
+        "occasion": [
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image78.jpg"
+        ]
+    },
+    {
+        "_id": "d0df4d0e-c008-4b2e-978f-ae59ff902004",
+        "sku": "SKU5252",
+        "name": "Modern Denning",
+        "description": "A fancy denning in navy color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "DENNING",
+        "color": "NAVY",
+        "price": 18.19,
+        "stock": 72,
+        "occasion": [
+            "SCHOOL",
+            "CHRISTMAS",
+            "GRADUATION",
+            "DATE",
+            "DAY_OFF",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "COOL",
+            "ELEGANT",
+            "FANCY",
+            "BASIC",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image45.jpg"
+        ]
+    },
+    {
+        "_id": "ebcc7312-2697-49b1-bd25-7b1d5af0083d",
+        "sku": "SKU8770",
+        "name": "Chic Boots",
+        "description": "A trendy boots in white color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "BOOTS",
+        "color": "WHITE",
+        "price": 83.97,
+        "stock": 49,
+        "occasion": [
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "GRADUATION",
+            "WEDDING",
+            "SCHOOL"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image81.jpg",
+            "https://example.com/image90.jpg",
+            "https://example.com/image51.jpg"
+        ]
+    },
+    {
+        "_id": "5834516f-fb94-45b3-a74e-6c423114a34c",
+        "sku": "SKU5137",
+        "name": "Chic Jumpsuit",
+        "description": "A comfortable jumpsuit in gray color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "JUMPSUIT",
+        "color": "GRAY",
+        "price": 31.08,
+        "stock": 72,
+        "occasion": [
+            "GRADUATION",
+            "SCHOOL",
+            "CHRISTMAS",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "BASIC",
+            "COOL",
+            "ELEGANT"
+        ],
+        "style": [
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image82.jpg",
+            "https://example.com/image71.jpg",
+            "https://example.com/image45.jpg",
+            "https://example.com/image28.jpg"
+        ]
+    },
+    {
+        "_id": "c813de94-7ea6-45b0-89f4-ef085205ccb5",
+        "sku": "SKU1651",
+        "name": "Casual Shorts",
+        "description": "A elegant shorts in navy color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "SHORTS",
+        "color": "NAVY",
+        "price": 76.89,
+        "stock": 3,
+        "occasion": [
+            "WEDDING",
+            "DATE"
+        ],
+        "mood": [
+            "BASIC",
+            "CUTE",
+            "ELEGANT",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER",
+            "CASUAL",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image27.jpg",
+            "https://example.com/image33.jpg"
+        ]
+    },
+    {
+        "_id": "d6cc49d3-12f2-4521-ae2f-7c393047099e",
+        "sku": "SKU8441",
+        "name": "Elegant Shorts",
+        "description": "A casual shorts in purple color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "SHORTS",
+        "color": "PURPLE",
+        "price": 57.9,
+        "stock": 56,
+        "occasion": [
+            "DATE",
+            "WORK"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "CUTE",
+            "BASIC",
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image93.jpg",
+            "https://example.com/image98.jpg",
+            "https://example.com/image27.jpg",
+            "https://example.com/image83.jpg"
+        ]
+    },
+    {
+        "_id": "d513a04a-e874-4c4d-b941-b75a62121216",
+        "sku": "SKU8152",
+        "name": "Comfortable Bag",
+        "description": "A classic bag in green color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BAG",
+        "color": "GREEN",
+        "price": 15.81,
+        "stock": 48,
+        "occasion": [
+            "DATE"
+        ],
+        "mood": [
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image20.jpg",
+            "https://example.com/image11.jpg"
+        ]
+    },
+    {
+        "_id": "fdfc8173-e15f-43b1-9839-444f53e12f1c",
+        "sku": "SKU2154",
+        "name": "Chic Blazer",
+        "description": "A comfortable blazer in teal color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BLAZER",
+        "color": "TEAL",
+        "price": 25.21,
+        "stock": 97,
+        "occasion": [
+            "WEDDING",
+            "WORK"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "GLAMOUR",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image24.jpg"
+        ]
+    },
+    {
+        "_id": "54cefef2-aa9b-4667-a214-f5b20d8c46f0",
+        "sku": "SKU4541",
+        "name": "Comfortable Dress",
+        "description": "A cool dress in cyan color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "DRESS",
+        "color": "CYAN",
+        "price": 69.17,
+        "stock": 6,
+        "occasion": [
+            "SCHOOL",
+            "WORK",
+            "GRADUATION",
+            "DAY_OFF",
+            "WEDDING",
+            "NIGHT_OUT",
+            "DATE",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "CUTE"
+        ],
+        "style": [
+            "GLAMOUR",
+            "TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image98.jpg"
+        ]
+    },
+    {
+        "_id": "0fee6d97-fee2-4abf-b262-f59d65c4cb65",
+        "sku": "SKU2000",
+        "name": "Classic Dress",
+        "description": "A classic dress in blue color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "DRESS",
+        "color": "BLUE",
+        "price": 60.63,
+        "stock": 68,
+        "occasion": [
+            "CHRISTMAS",
+            "DAY_OFF",
+            "DATE",
+            "GRADUATION",
+            "WORK",
+            "SCHOOL"
+        ],
+        "mood": [
+            "FANCY",
+            "BASIC",
+            "COOL"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image52.jpg",
+            "https://example.com/image14.jpg",
+            "https://example.com/image22.jpg",
+            "https://example.com/image92.jpg",
+            "https://example.com/image51.jpg"
+        ]
+    },
+    {
+        "_id": "aeb754ce-7b31-43f0-9e49-6aa8223a8b4a",
+        "sku": "SKU4908",
+        "name": "Stylish Sweater",
+        "description": "A trendy sweater in white color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SWEATER",
+        "color": "WHITE",
+        "price": 10.61,
+        "stock": 100,
+        "occasion": [
+            "DAY_OFF",
+            "WEDDING",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE",
+            "COOL"
+        ],
+        "style": [
+            "GLAMOUR",
+            "YOUNGER",
+            "CASUAL",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image94.jpg",
+            "https://example.com/image48.jpg",
+            "https://example.com/image5.jpg"
+        ]
+    },
+    {
+        "_id": "151f9ada-b829-46c6-bca8-ae06a3c90d72",
+        "sku": "SKU9164",
+        "name": "Casual Sandal",
+        "description": "A fancy sandal in black color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SANDAL",
+        "color": "BLACK",
+        "price": 26.11,
+        "stock": 63,
+        "occasion": [
+            "WORK",
+            "DATE",
+            "NIGHT_OUT",
+            "SCHOOL",
+            "WEDDING"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "COOL",
+            "CUTE",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image14.jpg"
+        ]
+    },
+    {
+        "_id": "b1d99ca7-1462-47a6-8853-6e69c6b4e873",
+        "sku": "SKU4041",
+        "name": "Modern Heels",
+        "description": "A chic heels in red color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "HEELS",
+        "color": "RED",
+        "price": 62.83,
+        "stock": 39,
+        "occasion": [
+            "CHRISTMAS",
+            "SCHOOL",
+            "DATE",
+            "WORK",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "CUTE",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image59.jpg",
+            "https://example.com/image4.jpg",
+            "https://example.com/image81.jpg",
+            "https://example.com/image99.jpg",
+            "https://example.com/image30.jpg"
+        ]
+    },
+    {
+        "_id": "592e5873-d43d-48ec-8bee-6a2728ba41c3",
+        "sku": "SKU3805",
+        "name": "Stylish Sandal",
+        "description": "A fancy sandal in yellow color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SANDAL",
+        "color": "YELLOW",
+        "price": 53.52,
+        "stock": 83,
+        "occasion": [
+            "SCHOOL",
+            "GRADUATION"
+        ],
+        "mood": [
+            "CUTE",
+            "BASIC",
+            "ELEGANT",
+            "FANCY"
+        ],
+        "style": [
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image100.jpg",
+            "https://example.com/image70.jpg",
+            "https://example.com/image54.jpg",
+            "https://example.com/image48.jpg",
+            "https://example.com/image55.jpg"
+        ]
+    },
+    {
+        "_id": "fa7c59e6-aed0-43d9-81c2-32e65425c81e",
+        "sku": "SKU8769",
+        "name": "Cool Belt",
+        "description": "A modern belt in magenta color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "BELT",
+        "color": "MAGENTA",
+        "price": 82.81,
+        "stock": 44,
+        "occasion": [
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "GRADUATION",
+            "SCHOOL",
+            "DATE",
+            "DAY_OFF",
+            "WEDDING"
+        ],
+        "mood": [
+            "COOL",
+            "FANCY",
+            "CUTE",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image52.jpg",
+            "https://example.com/image81.jpg"
+        ]
+    },
+    {
+        "_id": "91411d94-6372-46bd-b9e8-e29c774f2706",
+        "sku": "SKU1143",
+        "name": "Chic Romper",
+        "description": "A comfortable romper in gray color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "ROMPER",
+        "color": "GRAY",
+        "price": 87.78,
+        "stock": 4,
+        "occasion": [
+            "CHRISTMAS",
+            "SCHOOL",
+            "DATE"
+        ],
+        "mood": [
+            "CUTE",
+            "BASIC",
+            "FANCY",
+            "COOL",
+            "ELEGANT"
+        ],
+        "style": [
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image100.jpg",
+            "https://example.com/image55.jpg",
+            "https://example.com/image8.jpg"
+        ]
+    },
+    {
+        "_id": "6425a815-09ef-45d1-855b-7a395b8a0050",
+        "sku": "SKU4975",
+        "name": "Chic Skirt",
+        "description": "A cool skirt in black color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "SKIRT",
+        "color": "BLACK",
+        "price": 51.37,
+        "stock": 40,
+        "occasion": [
+            "CHRISTMAS",
+            "WEDDING"
+        ],
+        "mood": [
+            "BASIC",
+            "FANCY",
+            "CUTE",
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image76.jpg",
+            "https://example.com/image73.jpg"
+        ]
+    },
+    {
+        "_id": "a5838923-0715-4432-b54e-d12b9108dd89",
+        "sku": "SKU3853",
+        "name": "Chic Dress",
+        "description": "A cool dress in olive color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "DRESS",
+        "color": "OLIVE",
+        "price": 28.3,
+        "stock": 8,
+        "occasion": [
+            "DATE"
+        ],
+        "mood": [
+            "COOL",
+            "ELEGANT",
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image18.jpg",
+            "https://example.com/image1.jpg",
+            "https://example.com/image73.jpg"
+        ]
+    },
+    {
+        "_id": "439e2269-5f61-4c15-a9f8-f4150d8fd4c7",
+        "sku": "SKU2853",
+        "name": "Fancy Coat",
+        "description": "A stylish coat in purple color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "COAT",
+        "color": "PURPLE",
+        "price": 47.16,
+        "stock": 78,
+        "occasion": [
+            "DATE",
+            "WEDDING",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "BASIC",
+            "CUTE",
+            "ELEGANT"
+        ],
+        "style": [
+            "GLAMOUR",
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image49.jpg",
+            "https://example.com/image62.jpg",
+            "https://example.com/image42.jpg"
+        ]
+    },
+    {
+        "_id": "0cb85814-e700-40ea-8531-bdf6e4855b39",
+        "sku": "SKU2632",
+        "name": "Cool Shorts",
+        "description": "A comfortable shorts in silver color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "SHORTS",
+        "color": "SILVER",
+        "price": 19.5,
+        "stock": 97,
+        "occasion": [
+            "SCHOOL",
+            "DATE",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "CHRISTMAS",
+            "GRADUATION",
+            "WORK"
+        ],
+        "mood": [
+            "COOL",
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image9.jpg",
+            "https://example.com/image63.jpg",
+            "https://example.com/image26.jpg",
+            "https://example.com/image63.jpg",
+            "https://example.com/image10.jpg"
+        ]
+    },
+    {
+        "_id": "b08e2958-ef4b-48b9-ae51-371252eb3ad2",
+        "sku": "SKU5038",
+        "name": "Fancy Shirt",
+        "description": "A fancy shirt in black color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "SHIRT",
+        "color": "BLACK",
+        "price": 57.69,
+        "stock": 4,
+        "occasion": [
+            "GRADUATION",
+            "WEDDING",
+            "WORK"
+        ],
+        "mood": [
+            "BASIC",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "CASUAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image57.jpg",
+            "https://example.com/image63.jpg",
+            "https://example.com/image77.jpg",
+            "https://example.com/image56.jpg",
+            "https://example.com/image96.jpg"
+        ]
+    },
+    {
+        "_id": "ea64ffe0-95f4-43a6-b64c-11a93c06bb98",
+        "sku": "SKU6571",
+        "name": "Stylish T_shirt",
+        "description": "A casual t_shirt in olive color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "T_SHIRT",
+        "color": "OLIVE",
+        "price": 70.5,
+        "stock": 23,
+        "occasion": [
+            "GRADUATION",
+            "CHRISTMAS",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "WEDDING",
+            "SCHOOL",
+            "WORK",
+            "DATE"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC",
+            "CUTE",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image91.jpg",
+            "https://example.com/image12.jpg"
+        ]
+    },
+    {
+        "_id": "d02a80c3-157f-47df-8f53-64156ffb008b",
+        "sku": "SKU2927",
+        "name": "Modern Shorts",
+        "description": "A comfortable shorts in purple color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "SHORTS",
+        "color": "PURPLE",
+        "price": 90.55,
+        "stock": 45,
+        "occasion": [
+            "NIGHT_OUT",
+            "SCHOOL",
+            "CHRISTMAS",
+            "DAY_OFF",
+            "DATE",
+            "WEDDING",
+            "GRADUATION"
+        ],
+        "mood": [
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image38.jpg",
+            "https://example.com/image92.jpg"
+        ]
+    },
+    {
+        "_id": "736c3d13-4789-4f91-8933-ffc0b32b07f5",
+        "sku": "SKU7555",
+        "name": "Modern Dress",
+        "description": "A elegant dress in purple color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "DRESS",
+        "color": "PURPLE",
+        "price": 15.81,
+        "stock": 67,
+        "occasion": [
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "COOL"
+        ],
+        "style": [
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image78.jpg",
+            "https://example.com/image76.jpg",
+            "https://example.com/image81.jpg",
+            "https://example.com/image66.jpg",
+            "https://example.com/image8.jpg"
+        ]
+    },
+    {
+        "_id": "02ebf215-83a9-40bd-99da-84bb09b902ed",
+        "sku": "SKU6638",
+        "name": "Elegant Sandal",
+        "description": "A fancy sandal in olive color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SANDAL",
+        "color": "OLIVE",
+        "price": 45.71,
+        "stock": 96,
+        "occasion": [
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image72.jpg",
+            "https://example.com/image32.jpg",
+            "https://example.com/image13.jpg"
+        ]
+    },
+    {
+        "_id": "5c5bfa56-e5e8-4f3e-9a9e-c6855d0e1fcb",
+        "sku": "SKU3506",
+        "name": "Elegant Head",
+        "description": "A comfortable head in cyan color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "HEAD",
+        "color": "CYAN",
+        "price": 32.05,
+        "stock": 24,
+        "occasion": [
+            "DAY_OFF",
+            "CHRISTMAS",
+            "DATE",
+            "WORK",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "SCHOOL"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image90.jpg",
+            "https://example.com/image9.jpg",
+            "https://example.com/image87.jpg"
+        ]
+    },
+    {
+        "_id": "6b813e24-cda5-4e49-8cea-28a9d55c27c5",
+        "sku": "SKU6644",
+        "name": "Chic Head",
+        "description": "A comfortable head in navy color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "HEAD",
+        "color": "NAVY",
+        "price": 88.51,
+        "stock": 90,
+        "occasion": [
+            "SCHOOL",
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "DAY_OFF",
+            "DATE"
+        ],
+        "mood": [
+            "COOL",
+            "ELEGANT"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image86.jpg"
+        ]
+    },
+    {
+        "_id": "ada83fd4-04bd-422e-b05c-74740a7cdf46",
+        "sku": "SKU6481",
+        "name": "Trendy Jewelry",
+        "description": "A chic jewelry in gray color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "JEWELRY",
+        "color": "GRAY",
+        "price": 25.09,
+        "stock": 11,
+        "occasion": [
+            "WORK",
+            "SCHOOL",
+            "DATE",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "CHRISTMAS",
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE",
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "GLAMOUR",
+            "TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image85.jpg",
+            "https://example.com/image17.jpg",
+            "https://example.com/image28.jpg",
+            "https://example.com/image76.jpg",
+            "https://example.com/image51.jpg"
+        ]
+    },
+    {
+        "_id": "a852915d-03a5-4cf6-9b73-bc15e1c89753",
+        "sku": "SKU5911",
+        "name": "Classic Sneaker",
+        "description": "A casual sneaker in yellow color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "SNEAKER",
+        "color": "YELLOW",
+        "price": 89.85,
+        "stock": 100,
+        "occasion": [
+            "WORK"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "BASIC",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image14.jpg",
+            "https://example.com/image13.jpg",
+            "https://example.com/image39.jpg",
+            "https://example.com/image90.jpg"
+        ]
+    },
+    {
+        "_id": "7b073968-3059-4e14-96c8-937f93dcbadf",
+        "sku": "SKU8223",
+        "name": "Chic Bag",
+        "description": "A elegant bag in teal color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BAG",
+        "color": "TEAL",
+        "price": 32.65,
+        "stock": 96,
+        "occasion": [
+            "DAY_OFF",
+            "CHRISTMAS",
+            "GRADUATION",
+            "DATE",
+            "WORK",
+            "WEDDING",
+            "NIGHT_OUT",
+            "SCHOOL"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT",
+            "COOL",
+            "FANCY",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image80.jpg"
+        ]
+    },
+    {
+        "_id": "61de4a24-1de9-4fd3-bd89-5347616565f2",
+        "sku": "SKU8849",
+        "name": "Fancy Sneaker",
+        "description": "A fancy sneaker in green color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SNEAKER",
+        "color": "GREEN",
+        "price": 96.14,
+        "stock": 97,
+        "occasion": [
+            "CHRISTMAS",
+            "WEDDING",
+            "SCHOOL",
+            "GRADUATION",
+            "WORK",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "DATE"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image88.jpg",
+            "https://example.com/image10.jpg",
+            "https://example.com/image22.jpg",
+            "https://example.com/image67.jpg"
+        ]
+    },
+    {
+        "_id": "c4dfd077-0f85-4cdf-a56a-746cb48b10bc",
+        "sku": "SKU3314",
+        "name": "Chic Shirt",
+        "description": "A casual shirt in magenta color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SHIRT",
+        "color": "MAGENTA",
+        "price": 88.83,
+        "stock": 71,
+        "occasion": [
+            "SCHOOL",
+            "WEDDING",
+            "CHRISTMAS",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "WORK",
+            "GRADUATION",
+            "DATE"
+        ],
+        "mood": [
+            "CUTE"
+        ],
+        "style": [
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image53.jpg",
+            "https://example.com/image20.jpg"
+        ]
+    },
+    {
+        "_id": "accbeb9a-7de6-4ee2-92ca-689fa5c19d57",
+        "sku": "SKU1385",
+        "name": "Casual Belt",
+        "description": "A fancy belt in maroon color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BELT",
+        "color": "MAROON",
+        "price": 84.43,
+        "stock": 29,
+        "occasion": [
+            "DAY_OFF",
+            "DATE"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image46.jpg",
+            "https://example.com/image27.jpg",
+            "https://example.com/image11.jpg",
+            "https://example.com/image9.jpg",
+            "https://example.com/image23.jpg"
+        ]
+    },
+    {
+        "_id": "856e4e4f-50fb-4350-a4a1-58528d1a7c9b",
+        "sku": "SKU2835",
+        "name": "Stylish Trouser",
+        "description": "A casual trouser in red color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "TROUSER",
+        "color": "RED",
+        "price": 66.93,
+        "stock": 0,
+        "occasion": [
+            "WORK",
+            "NIGHT_OUT",
+            "WEDDING",
+            "CHRISTMAS",
+            "GRADUATION",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR",
+            "TRADITIONAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image1.jpg",
+            "https://example.com/image13.jpg",
+            "https://example.com/image45.jpg"
+        ]
+    },
+    {
+        "_id": "20a99fd2-1614-4d33-bba8-040df9960662",
+        "sku": "SKU8938",
+        "name": "Stylish Trouser",
+        "description": "A comfortable trouser in navy color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "TROUSER",
+        "color": "NAVY",
+        "price": 66.41,
+        "stock": 22,
+        "occasion": [
+            "SCHOOL",
+            "NIGHT_OUT",
+            "WEDDING",
+            "GRADUATION",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "BASIC"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image72.jpg",
+            "https://example.com/image88.jpg",
+            "https://example.com/image72.jpg"
+        ]
+    },
+    {
+        "_id": "b124f02c-b1fd-4185-93f3-fde221a7d6f7",
+        "sku": "SKU4021",
+        "name": "Comfortable Sandal",
+        "description": "A fancy sandal in blue color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "SANDAL",
+        "color": "BLUE",
+        "price": 96.93,
+        "stock": 13,
+        "occasion": [
+            "WEDDING",
+            "CHRISTMAS",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "ELEGANT"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image47.jpg"
+        ]
+    },
+    {
+        "_id": "49c609f9-8a96-4131-a89f-efd7b8322298",
+        "sku": "SKU8662",
+        "name": "Classic Jumpsuit",
+        "description": "A modern jumpsuit in teal color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "JUMPSUIT",
+        "color": "TEAL",
+        "price": 36.67,
+        "stock": 86,
+        "occasion": [
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE",
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image36.jpg",
+            "https://example.com/image22.jpg"
+        ]
+    },
+    {
+        "_id": "20a239e9-056f-45c5-b51f-aa0a9c9de8ec",
+        "sku": "SKU5214",
+        "name": "Stylish Bodysuit",
+        "description": "A casual bodysuit in magenta color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "BODYSUIT",
+        "color": "MAGENTA",
+        "price": 38.74,
+        "stock": 30,
+        "occasion": [
+            "SCHOOL",
+            "DAY_OFF",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "FANCY",
+            "COOL",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image56.jpg",
+            "https://example.com/image69.jpg",
+            "https://example.com/image70.jpg"
+        ]
+    },
+    {
+        "_id": "68f21998-304b-4d33-a15c-d157b0d7a2c2",
+        "sku": "SKU9029",
+        "name": "Casual Tanktop",
+        "description": "A cool tanktop in black color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "TANKTOP",
+        "color": "BLACK",
+        "price": 52.23,
+        "stock": 49,
+        "occasion": [
+            "DATE",
+            "CHRISTMAS",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "SCHOOL",
+            "WEDDING",
+            "GRADUATION",
+            "WORK"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image36.jpg"
+        ]
+    },
+    {
+        "_id": "9fa75729-cf17-4136-b3f1-d234c37157e8",
+        "sku": "SKU4947",
+        "name": "Classic Sneaker",
+        "description": "A classic sneaker in red color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "SNEAKER",
+        "color": "RED",
+        "price": 62.0,
+        "stock": 56,
+        "occasion": [
+            "GRADUATION",
+            "CHRISTMAS",
+            "WORK",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image80.jpg",
+            "https://example.com/image8.jpg",
+            "https://example.com/image1.jpg",
+            "https://example.com/image56.jpg"
+        ]
+    },
+    {
+        "_id": "2c4f885c-8bd9-4db2-81a1-d65ae2d16cfb",
+        "sku": "SKU8558",
+        "name": "Fancy Head",
+        "description": "A trendy head in red color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "HEAD",
+        "color": "RED",
+        "price": 71.18,
+        "stock": 26,
+        "occasion": [
+            "CHRISTMAS",
+            "SCHOOL",
+            "GRADUATION",
+            "WORK",
+            "WEDDING"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image45.jpg",
+            "https://example.com/image34.jpg",
+            "https://example.com/image44.jpg"
+        ]
+    },
+    {
+        "_id": "1fd85893-e698-4891-aecb-fb54fdff756b",
+        "sku": "SKU4630",
+        "name": "Casual Skirt",
+        "description": "A classic skirt in gray color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "SKIRT",
+        "color": "GRAY",
+        "price": 24.65,
+        "stock": 26,
+        "occasion": [
+            "WORK",
+            "DAY_OFF",
+            "CHRISTMAS",
+            "DATE",
+            "WEDDING"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image70.jpg",
+            "https://example.com/image34.jpg"
+        ]
+    },
+    {
+        "_id": "13381589-b2d7-488e-ad0e-98ecdb8bfc39",
+        "sku": "SKU8327",
+        "name": "Cool Skirt",
+        "description": "A stylish skirt in yellow color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SKIRT",
+        "color": "YELLOW",
+        "price": 44.07,
+        "stock": 35,
+        "occasion": [
+            "CHRISTMAS",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "DATE",
+            "WEDDING"
+        ],
+        "mood": [
+            "BASIC"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image46.jpg",
+            "https://example.com/image67.jpg"
+        ]
+    },
+    {
+        "_id": "fd95ec55-8bdc-43e8-a25b-ea8ef3994678",
+        "sku": "SKU1283",
+        "name": "Comfortable Sandal",
+        "description": "A casual sandal in purple color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SANDAL",
+        "color": "PURPLE",
+        "price": 59.21,
+        "stock": 20,
+        "occasion": [
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "SCHOOL",
+            "WORK",
+            "GRADUATION"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image43.jpg",
+            "https://example.com/image87.jpg",
+            "https://example.com/image81.jpg",
+            "https://example.com/image13.jpg"
+        ]
+    },
+    {
+        "_id": "4dc5accf-1845-4740-9718-624f15c906a0",
+        "sku": "SKU4870",
+        "name": "Casual Dress",
+        "description": "A casual dress in maroon color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "DRESS",
+        "color": "MAROON",
+        "price": 93.42,
+        "stock": 52,
+        "occasion": [
+            "WEDDING",
+            "CHRISTMAS",
+            "GRADUATION",
+            "WORK",
+            "NIGHT_OUT",
+            "DATE",
+            "DAY_OFF",
+            "SCHOOL"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image88.jpg"
+        ]
+    },
+    {
+        "_id": "addfa738-7e4c-478c-8ccf-372b8c0a4d31",
+        "sku": "SKU9307",
+        "name": "Casual Boots",
+        "description": "A stylish boots in gray color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BOOTS",
+        "color": "GRAY",
+        "price": 43.5,
+        "stock": 57,
+        "occasion": [
+            "CHRISTMAS",
+            "SCHOOL"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image27.jpg",
+            "https://example.com/image66.jpg",
+            "https://example.com/image75.jpg",
+            "https://example.com/image95.jpg"
+        ]
+    },
+    {
+        "_id": "1abfae24-2bce-45b4-a8ea-98077b8fba74",
+        "sku": "SKU1197",
+        "name": "Elegant Jewelry",
+        "description": "A comfortable jewelry in silver color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "JEWELRY",
+        "color": "SILVER",
+        "price": 25.74,
+        "stock": 15,
+        "occasion": [
+            "WEDDING",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image64.jpg",
+            "https://example.com/image14.jpg",
+            "https://example.com/image52.jpg",
+            "https://example.com/image78.jpg"
+        ]
+    },
+    {
+        "_id": "92747988-d879-4f0e-8c60-2a00b96efe35",
+        "sku": "SKU3879",
+        "name": "Elegant Bodysuit",
+        "description": "A classic bodysuit in maroon color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "BODYSUIT",
+        "color": "MAROON",
+        "price": 10.85,
+        "stock": 31,
+        "occasion": [
+            "WORK",
+            "GRADUATION",
+            "CHRISTMAS",
+            "WEDDING",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "ELEGANT",
+            "COOL"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image58.jpg",
+            "https://example.com/image14.jpg",
+            "https://example.com/image34.jpg",
+            "https://example.com/image87.jpg",
+            "https://example.com/image43.jpg"
+        ]
+    },
+    {
+        "_id": "815f0458-d61c-49b2-801b-0e6bcf66f2fa",
+        "sku": "SKU8392",
+        "name": "Stylish Jumpsuit",
+        "description": "A chic jumpsuit in teal color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "JUMPSUIT",
+        "color": "TEAL",
+        "price": 70.27,
+        "stock": 52,
+        "occasion": [
+            "NIGHT_OUT",
+            "WEDDING",
+            "WORK",
+            "SCHOOL",
+            "DAY_OFF",
+            "GRADUATION",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE",
+            "COOL"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image26.jpg",
+            "https://example.com/image85.jpg"
+        ]
+    },
+    {
+        "_id": "a88b1f67-3e07-470d-bfa9-ef9c35d2affe",
+        "sku": "SKU7638",
+        "name": "Chic Blazer",
+        "description": "A comfortable blazer in purple color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BLAZER",
+        "color": "PURPLE",
+        "price": 85.52,
+        "stock": 76,
+        "occasion": [
+            "DATE"
+        ],
+        "mood": [
+            "ELEGANT",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image17.jpg",
+            "https://example.com/image16.jpg"
+        ]
+    },
+    {
+        "_id": "6b0fa442-add2-44d3-8b88-5b275cbf0ae6",
+        "sku": "SKU9048",
+        "name": "Fancy Denning",
+        "description": "A trendy denning in silver color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "DENNING",
+        "color": "SILVER",
+        "price": 68.07,
+        "stock": 64,
+        "occasion": [
+            "WEDDING",
+            "DATE",
+            "DAY_OFF",
+            "SCHOOL",
+            "GRADUATION",
+            "CHRISTMAS",
+            "NIGHT_OUT",
+            "WORK"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL",
+            "CUTE",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image99.jpg",
+            "https://example.com/image89.jpg",
+            "https://example.com/image26.jpg"
+        ]
+    },
+    {
+        "_id": "eb2c1d12-cee2-4e96-9431-e734d1643e0d",
+        "sku": "SKU7370",
+        "name": "Comfortable Tanktop",
+        "description": "A cool tanktop in black color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "TANKTOP",
+        "color": "BLACK",
+        "price": 67.59,
+        "stock": 39,
+        "occasion": [
+            "DATE",
+            "NIGHT_OUT",
+            "WORK"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image63.jpg",
+            "https://example.com/image55.jpg"
+        ]
+    },
+    {
+        "_id": "a1e2c76f-0ed5-4ce8-a493-883783e27c58",
+        "sku": "SKU6378",
+        "name": "Stylish Jacket",
+        "description": "A cool jacket in olive color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "JACKET",
+        "color": "OLIVE",
+        "price": 16.33,
+        "stock": 89,
+        "occasion": [
+            "GRADUATION",
+            "DATE",
+            "WEDDING",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "FANCY",
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image85.jpg",
+            "https://example.com/image43.jpg",
+            "https://example.com/image6.jpg"
+        ]
+    },
+    {
+        "_id": "a38a1cad-1c8c-4ef2-bfde-1ecb4726413b",
+        "sku": "SKU8823",
+        "name": "Fancy Trouser",
+        "description": "A trendy trouser in purple color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "TROUSER",
+        "color": "PURPLE",
+        "price": 91.75,
+        "stock": 51,
+        "occasion": [
+            "SCHOOL",
+            "CHRISTMAS",
+            "WORK"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image31.jpg",
+            "https://example.com/image74.jpg"
+        ]
+    },
+    {
+        "_id": "6ee8d441-ff9f-4176-b2ec-b80072e77286",
+        "sku": "SKU9801",
+        "name": "Modern Bag",
+        "description": "A modern bag in gray color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "BAG",
+        "color": "GRAY",
+        "price": 83.35,
+        "stock": 59,
+        "occasion": [
+            "GRADUATION",
+            "SCHOOL",
+            "CHRISTMAS",
+            "WORK",
+            "DATE",
+            "DAY_OFF",
+            "WEDDING",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "CUTE"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "WINTER",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image83.jpg",
+            "https://example.com/image29.jpg",
+            "https://example.com/image32.jpg",
+            "https://example.com/image65.jpg"
+        ]
+    },
+    {
+        "_id": "5df73c41-47f0-4d99-bb00-55f1583366e5",
+        "sku": "SKU5629",
+        "name": "Stylish Shorts",
+        "description": "A cool shorts in green color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SHORTS",
+        "color": "GREEN",
+        "price": 65.62,
+        "stock": 81,
+        "occasion": [
+            "CHRISTMAS",
+            "DAY_OFF",
+            "WORK",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "WEDDING"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "FANCY",
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image80.jpg",
+            "https://example.com/image37.jpg",
+            "https://example.com/image24.jpg",
+            "https://example.com/image6.jpg"
+        ]
+    },
+    {
+        "_id": "49fbf7e7-aa1a-4125-a10f-31cae9cd66e5",
+        "sku": "SKU2800",
+        "name": "Modern Sweater",
+        "description": "A modern sweater in yellow color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "SWEATER",
+        "color": "YELLOW",
+        "price": 91.68,
+        "stock": 73,
+        "occasion": [
+            "SCHOOL",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "WORK"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image27.jpg"
+        ]
+    },
+    {
+        "_id": "7604f5f6-d1e1-4a42-9de9-301bda4e5891",
+        "sku": "SKU5146",
+        "name": "Comfortable T_shirt",
+        "description": "A classic t_shirt in blue color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "T_SHIRT",
+        "color": "BLUE",
+        "price": 63.8,
+        "stock": 80,
+        "occasion": [
+            "CHRISTMAS",
+            "DATE",
+            "SCHOOL"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE",
+            "BASIC",
+            "COOL",
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image47.jpg",
+            "https://example.com/image70.jpg",
+            "https://example.com/image78.jpg",
+            "https://example.com/image56.jpg",
+            "https://example.com/image53.jpg"
+        ]
+    },
+    {
+        "_id": "a55ec707-60f8-43a7-90bb-8d6e773ddb6e",
+        "sku": "SKU9308",
+        "name": "Stylish Sneaker",
+        "description": "A comfortable sneaker in teal color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SNEAKER",
+        "color": "TEAL",
+        "price": 21.05,
+        "stock": 16,
+        "occasion": [
+            "DAY_OFF",
+            "SCHOOL",
+            "CHRISTMAS",
+            "NIGHT_OUT",
+            "DATE"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "COOL",
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image72.jpg",
+            "https://example.com/image74.jpg"
+        ]
+    },
+    {
+        "_id": "7a7be16a-7053-4e5a-bccb-8df455ee2865",
+        "sku": "SKU6696",
+        "name": "Stylish Head",
+        "description": "A comfortable head in white color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "HEAD",
+        "color": "WHITE",
+        "price": 82.02,
+        "stock": 33,
+        "occasion": [
+            "NIGHT_OUT",
+            "DATE",
+            "SCHOOL",
+            "DAY_OFF",
+            "WEDDING",
+            "WORK",
+            "GRADUATION",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL",
+            "CUTE",
+            "BASIC"
+        ],
+        "style": [
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image58.jpg",
+            "https://example.com/image100.jpg",
+            "https://example.com/image67.jpg",
+            "https://example.com/image81.jpg",
+            "https://example.com/image57.jpg"
+        ]
+    },
+    {
+        "_id": "6b1f4806-a87c-432f-a08e-e53ecb83b94c",
+        "sku": "SKU4655",
+        "name": "Casual Coat",
+        "description": "A modern coat in magenta color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "COAT",
+        "color": "MAGENTA",
+        "price": 55.3,
+        "stock": 47,
+        "occasion": [
+            "CHRISTMAS",
+            "DAY_OFF",
+            "WORK",
+            "SCHOOL"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image7.jpg"
+        ]
+    },
+    {
+        "_id": "8938b496-9353-4242-8ea2-eea5abf88a9c",
+        "sku": "SKU6024",
+        "name": "Fancy Coat",
+        "description": "A trendy coat in teal color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "COAT",
+        "color": "TEAL",
+        "price": 60.24,
+        "stock": 49,
+        "occasion": [
+            "DAY_OFF",
+            "WORK",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "BASIC",
+            "FANCY",
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image36.jpg"
+        ]
+    },
+    {
+        "_id": "067d9b23-cef6-43d4-a9db-9d3e0872658a",
+        "sku": "SKU7952",
+        "name": "Classic Bag",
+        "description": "A classic bag in yellow color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "BAG",
+        "color": "YELLOW",
+        "price": 15.8,
+        "stock": 65,
+        "occasion": [
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "GRADUATION",
+            "DATE",
+            "SCHOOL",
+            "WEDDING",
+            "WORK",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "FANCY",
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image74.jpg",
+            "https://example.com/image27.jpg",
+            "https://example.com/image98.jpg",
+            "https://example.com/image12.jpg"
+        ]
+    },
+    {
+        "_id": "03112701-02ee-4070-bc20-cc73c5f62c0c",
+        "sku": "SKU3144",
+        "name": "Comfortable Romper",
+        "description": "A fancy romper in silver color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "ROMPER",
+        "color": "SILVER",
+        "price": 62.38,
+        "stock": 97,
+        "occasion": [
+            "SCHOOL",
+            "CHRISTMAS",
+            "GRADUATION",
+            "WEDDING"
+        ],
+        "mood": [
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image14.jpg",
+            "https://example.com/image98.jpg"
+        ]
+    },
+    {
+        "_id": "d103a875-1462-4a65-97a6-263435291ae3",
+        "sku": "SKU3882",
+        "name": "Casual Skirt",
+        "description": "A comfortable skirt in red color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "SKIRT",
+        "color": "RED",
+        "price": 59.99,
+        "stock": 36,
+        "occasion": [
+            "CHRISTMAS",
+            "GRADUATION"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image98.jpg"
+        ]
+    },
+    {
+        "_id": "feebd9f9-3354-4fdb-86d9-3990aeb4b8fb",
+        "sku": "SKU8564",
+        "name": "Classic Sandal",
+        "description": "A elegant sandal in olive color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "SANDAL",
+        "color": "OLIVE",
+        "price": 52.17,
+        "stock": 2,
+        "occasion": [
+            "NIGHT_OUT",
+            "GRADUATION",
+            "DATE",
+            "CHRISTMAS",
+            "WEDDING",
+            "WORK"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "COOL",
+            "BASIC",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image13.jpg",
+            "https://example.com/image68.jpg",
+            "https://example.com/image8.jpg",
+            "https://example.com/image56.jpg"
+        ]
+    },
+    {
+        "_id": "4912f0c3-51ce-4abe-935c-1d52910aa7bf",
+        "sku": "SKU1796",
+        "name": "Elegant Bodysuit",
+        "description": "A trendy bodysuit in silver color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BODYSUIT",
+        "color": "SILVER",
+        "price": 40.49,
+        "stock": 25,
+        "occasion": [
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "DATE",
+            "DAY_OFF",
+            "GRADUATION",
+            "WEDDING",
+            "SCHOOL",
+            "WORK"
+        ],
+        "mood": [
+            "BASIC",
+            "COOL",
+            "ELEGANT",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image29.jpg",
+            "https://example.com/image76.jpg",
+            "https://example.com/image68.jpg"
+        ]
+    },
+    {
+        "_id": "9dffbd0a-2777-46da-9587-3a05ae8a83b7",
+        "sku": "SKU5817",
+        "name": "Trendy Dress",
+        "description": "A classic dress in blue color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "DRESS",
+        "color": "BLUE",
+        "price": 72.95,
+        "stock": 18,
+        "occasion": [
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE",
+            "COOL",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL",
+            "CASUAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image39.jpg",
+            "https://example.com/image85.jpg",
+            "https://example.com/image15.jpg",
+            "https://example.com/image34.jpg",
+            "https://example.com/image19.jpg"
+        ]
+    },
+    {
+        "_id": "8e6b1ebb-2fed-4e0e-aa50-50c4e038d3a8",
+        "sku": "SKU3425",
+        "name": "Chic Jumpsuit",
+        "description": "A trendy jumpsuit in gray color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "JUMPSUIT",
+        "color": "GRAY",
+        "price": 57.75,
+        "stock": 27,
+        "occasion": [
+            "DATE",
+            "SCHOOL",
+            "WORK",
+            "CHRISTMAS",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "WEDDING",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "ELEGANT",
+            "BASIC",
+            "FANCY"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image46.jpg",
+            "https://example.com/image84.jpg",
+            "https://example.com/image30.jpg",
+            "https://example.com/image70.jpg"
+        ]
+    },
+    {
+        "_id": "203ee44e-666c-49ff-831c-434743a8eace",
+        "sku": "SKU1866",
+        "name": "Elegant Jumpsuit",
+        "description": "A comfortable jumpsuit in red color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "JUMPSUIT",
+        "color": "RED",
+        "price": 37.75,
+        "stock": 42,
+        "occasion": [
+            "GRADUATION",
+            "WEDDING"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL",
+            "ELEGANT",
+            "BASIC",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image79.jpg",
+            "https://example.com/image94.jpg",
+            "https://example.com/image44.jpg"
+        ]
+    },
+    {
+        "_id": "1b736d31-1c52-4083-a415-40643841a472",
+        "sku": "SKU9742",
+        "name": "Casual Skirt",
+        "description": "A comfortable skirt in green color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SKIRT",
+        "color": "GREEN",
+        "price": 57.07,
+        "stock": 87,
+        "occasion": [
+            "CHRISTMAS",
+            "SCHOOL",
+            "WEDDING",
+            "DATE",
+            "DAY_OFF",
+            "GRADUATION",
+            "WORK"
+        ],
+        "mood": [
+            "CUTE",
+            "BASIC",
+            "COOL"
+        ],
+        "style": [
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image16.jpg",
+            "https://example.com/image84.jpg",
+            "https://example.com/image33.jpg"
+        ]
+    },
+    {
+        "_id": "f1f4be3f-8f4e-429f-af19-e23f73ef41ba",
+        "sku": "SKU4477",
+        "name": "Cool Dress",
+        "description": "A trendy dress in blue color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "DRESS",
+        "color": "BLUE",
+        "price": 50.46,
+        "stock": 99,
+        "occasion": [
+            "SCHOOL",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "BASIC",
+            "COOL",
+            "CUTE"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image9.jpg"
+        ]
+    },
+    {
+        "_id": "84b69205-699b-4813-8cf0-a7231ea0b3e8",
+        "sku": "SKU2243",
+        "name": "Casual Shirt",
+        "description": "A fancy shirt in black color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SHIRT",
+        "color": "BLACK",
+        "price": 61.78,
+        "stock": 76,
+        "occasion": [
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image13.jpg",
+            "https://example.com/image44.jpg",
+            "https://example.com/image49.jpg",
+            "https://example.com/image34.jpg"
+        ]
+    },
+    {
+        "_id": "03441617-26ae-4bec-8e0f-685e7455864b",
+        "sku": "SKU8871",
+        "name": "Chic Sweater",
+        "description": "A fancy sweater in olive color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SWEATER",
+        "color": "OLIVE",
+        "price": 85.88,
+        "stock": 27,
+        "occasion": [
+            "SCHOOL",
+            "WEDDING"
+        ],
+        "mood": [
+            "BASIC",
+            "FANCY",
+            "COOL"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image94.jpg",
+            "https://example.com/image40.jpg",
+            "https://example.com/image2.jpg",
+            "https://example.com/image47.jpg"
+        ]
+    },
+    {
+        "_id": "7c68dd15-c352-4c13-b954-21cdd096acb6",
+        "sku": "SKU8231",
+        "name": "Casual Romper",
+        "description": "A modern romper in cyan color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "ROMPER",
+        "color": "CYAN",
+        "price": 48.66,
+        "stock": 6,
+        "occasion": [
+            "CHRISTMAS",
+            "GRADUATION",
+            "WORK",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "BASIC",
+            "FANCY",
+            "COOL",
+            "CUTE",
+            "ELEGANT"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "CASUAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image23.jpg",
+            "https://example.com/image39.jpg"
+        ]
+    },
+    {
+        "_id": "0568fb97-e28e-4f2e-adfd-31e0b614bf4e",
+        "sku": "SKU9481",
+        "name": "Chic Boots",
+        "description": "A casual boots in olive color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BOOTS",
+        "color": "OLIVE",
+        "price": 45.81,
+        "stock": 76,
+        "occasion": [
+            "DAY_OFF",
+            "GRADUATION",
+            "CHRISTMAS",
+            "WORK",
+            "DATE",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "CASUAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image47.jpg",
+            "https://example.com/image81.jpg",
+            "https://example.com/image14.jpg",
+            "https://example.com/image81.jpg",
+            "https://example.com/image92.jpg"
+        ]
+    },
+    {
+        "_id": "3382e52e-c209-4d6d-8490-b33ca19b7101",
+        "sku": "SKU3090",
+        "name": "Elegant Romper",
+        "description": "A classic romper in navy color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "ROMPER",
+        "color": "NAVY",
+        "price": 68.14,
+        "stock": 11,
+        "occasion": [
+            "CHRISTMAS",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "SCHOOL"
+        ],
+        "mood": [
+            "COOL"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image12.jpg",
+            "https://example.com/image31.jpg",
+            "https://example.com/image37.jpg"
+        ]
+    },
+    {
+        "_id": "efda5d97-38a9-40b9-9732-c0f0a89f17d1",
+        "sku": "SKU7177",
+        "name": "Elegant Bag",
+        "description": "A trendy bag in yellow color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "BAG",
+        "color": "YELLOW",
+        "price": 54.15,
+        "stock": 9,
+        "occasion": [
+            "DATE",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE"
+        ],
+        "style": [
+            "GLAMOUR",
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image40.jpg",
+            "https://example.com/image9.jpg",
+            "https://example.com/image33.jpg",
+            "https://example.com/image43.jpg",
+            "https://example.com/image86.jpg"
+        ]
+    },
+    {
+        "_id": "0089cd21-f124-43f0-a888-bbc019122932",
+        "sku": "SKU4007",
+        "name": "Classic Heels",
+        "description": "A fancy heels in black color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "HEELS",
+        "color": "BLACK",
+        "price": 59.79,
+        "stock": 96,
+        "occasion": [
+            "SCHOOL",
+            "DATE",
+            "WORK"
+        ],
+        "mood": [
+            "BASIC",
+            "FANCY",
+            "ELEGANT"
+        ],
+        "style": [
+            "YOUNGER",
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image73.jpg",
+            "https://example.com/image20.jpg",
+            "https://example.com/image78.jpg",
+            "https://example.com/image99.jpg"
+        ]
+    },
+    {
+        "_id": "4e06a96b-fd8d-45a7-8dfb-f1aac8a06870",
+        "sku": "SKU1990",
+        "name": "Cool Belt",
+        "description": "A casual belt in navy color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "BELT",
+        "color": "NAVY",
+        "price": 53.09,
+        "stock": 18,
+        "occasion": [
+            "WORK",
+            "DATE",
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "GRADUATION",
+            "SCHOOL"
+        ],
+        "mood": [
+            "FANCY",
+            "COOL",
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image69.jpg",
+            "https://example.com/image82.jpg",
+            "https://example.com/image5.jpg",
+            "https://example.com/image28.jpg",
+            "https://example.com/image3.jpg"
+        ]
+    },
+    {
+        "_id": "a5b01593-5a49-46db-bdef-3f6b3c0d6f68",
+        "sku": "SKU1668",
+        "name": "Chic Bag",
+        "description": "A fancy bag in black color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BAG",
+        "color": "BLACK",
+        "price": 85.42,
+        "stock": 16,
+        "occasion": [
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "WINTER",
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image65.jpg",
+            "https://example.com/image99.jpg",
+            "https://example.com/image41.jpg"
+        ]
+    },
+    {
+        "_id": "e115d426-55e6-4977-a461-b9d8885a3fc4",
+        "sku": "SKU7430",
+        "name": "Fancy Dress",
+        "description": "A cool dress in green color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "DRESS",
+        "color": "GREEN",
+        "price": 58.13,
+        "stock": 83,
+        "occasion": [
+            "GRADUATION",
+            "WEDDING",
+            "WORK",
+            "NIGHT_OUT",
+            "SCHOOL",
+            "CHRISTMAS",
+            "DATE",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "COOL",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "CASUAL",
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image24.jpg",
+            "https://example.com/image70.jpg",
+            "https://example.com/image74.jpg",
+            "https://example.com/image6.jpg",
+            "https://example.com/image55.jpg"
+        ]
+    },
+    {
+        "_id": "ba0d0c9e-b44b-4f9b-b049-73e5e70911dc",
+        "sku": "SKU8893",
+        "name": "Cool Shorts",
+        "description": "A chic shorts in navy color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SHORTS",
+        "color": "NAVY",
+        "price": 42.1,
+        "stock": 49,
+        "occasion": [
+            "NIGHT_OUT",
+            "SCHOOL",
+            "WEDDING",
+            "CHRISTMAS",
+            "GRADUATION",
+            "DATE",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image50.jpg"
+        ]
+    },
+    {
+        "_id": "c432fc77-99cd-484f-a91e-eb8a645595ae",
+        "sku": "SKU9448",
+        "name": "Chic Shorts",
+        "description": "A cool shorts in purple color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "SHORTS",
+        "color": "PURPLE",
+        "price": 65.56,
+        "stock": 46,
+        "occasion": [
+            "NIGHT_OUT",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "BASIC",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image88.jpg",
+            "https://example.com/image14.jpg",
+            "https://example.com/image74.jpg",
+            "https://example.com/image17.jpg",
+            "https://example.com/image13.jpg"
+        ]
+    },
+    {
+        "_id": "599879ae-703f-4817-85ba-b72d2c1c184e",
+        "sku": "SKU7258",
+        "name": "Fancy Dress",
+        "description": "A modern dress in blue color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "DRESS",
+        "color": "BLUE",
+        "price": 22.26,
+        "stock": 98,
+        "occasion": [
+            "WORK",
+            "WEDDING",
+            "CHRISTMAS",
+            "DAY_OFF",
+            "SCHOOL",
+            "GRADUATION",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image23.jpg",
+            "https://example.com/image65.jpg",
+            "https://example.com/image75.jpg",
+            "https://example.com/image65.jpg",
+            "https://example.com/image68.jpg"
+        ]
+    },
+    {
+        "_id": "ae2e0972-71c8-436e-81bb-e8785d0424ba",
+        "sku": "SKU1768",
+        "name": "Fancy Sandal",
+        "description": "A classic sandal in blue color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "SANDAL",
+        "color": "BLUE",
+        "price": 99.82,
+        "stock": 83,
+        "occasion": [
+            "SCHOOL",
+            "WEDDING",
+            "DATE",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image26.jpg",
+            "https://example.com/image89.jpg",
+            "https://example.com/image1.jpg",
+            "https://example.com/image63.jpg"
+        ]
+    },
+    {
+        "_id": "12dde399-8ddb-48e6-a25b-57cc8727ed8b",
+        "sku": "SKU7220",
+        "name": "Cool Skirt",
+        "description": "A fancy skirt in purple color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SKIRT",
+        "color": "PURPLE",
+        "price": 52.0,
+        "stock": 83,
+        "occasion": [
+            "CHRISTMAS",
+            "DATE",
+            "SCHOOL",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "WEDDING",
+            "GRADUATION"
+        ],
+        "mood": [
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image42.jpg",
+            "https://example.com/image68.jpg",
+            "https://example.com/image42.jpg",
+            "https://example.com/image74.jpg"
+        ]
+    },
+    {
+        "_id": "20dd9fe7-a070-498b-b638-f178b076db79",
+        "sku": "SKU5746",
+        "name": "Trendy Denning",
+        "description": "A stylish denning in silver color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "DENNING",
+        "color": "SILVER",
+        "price": 56.0,
+        "stock": 97,
+        "occasion": [
+            "SCHOOL",
+            "DATE",
+            "CHRISTMAS",
+            "GRADUATION",
+            "WORK",
+            "WEDDING",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER",
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN",
+            "SPRING",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image29.jpg",
+            "https://example.com/image4.jpg",
+            "https://example.com/image90.jpg"
+        ]
+    },
+    {
+        "_id": "7acd5245-3c75-421f-aa8c-3331d6bf615b",
+        "sku": "SKU4650",
+        "name": "Comfortable Blazer",
+        "description": "A modern blazer in red color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "BLAZER",
+        "color": "RED",
+        "price": 92.19,
+        "stock": 77,
+        "occasion": [
+            "NIGHT_OUT",
+            "SCHOOL",
+            "CHRISTMAS",
+            "DATE",
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER",
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image84.jpg",
+            "https://example.com/image82.jpg"
+        ]
+    },
+    {
+        "_id": "a61165a3-5147-4cc0-81ea-7d5147b17b87",
+        "sku": "SKU1966",
+        "name": "Classic Belt",
+        "description": "A elegant belt in white color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "BELT",
+        "color": "WHITE",
+        "price": 73.62,
+        "stock": 75,
+        "occasion": [
+            "DAY_OFF",
+            "DATE",
+            "CHRISTMAS",
+            "SCHOOL",
+            "WORK"
+        ],
+        "mood": [
+            "COOL",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "TRADITIONAL",
+            "CASUAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image26.jpg",
+            "https://example.com/image7.jpg",
+            "https://example.com/image95.jpg"
+        ]
+    },
+    {
+        "_id": "cf8fc6b9-ed5c-446d-8e5f-f2ccb3faefb8",
+        "sku": "SKU8507",
+        "name": "Cool Tanktop",
+        "description": "A chic tanktop in black color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "TANKTOP",
+        "color": "BLACK",
+        "price": 68.44,
+        "stock": 11,
+        "occasion": [
+            "DATE",
+            "WORK",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "WEDDING",
+            "CHRISTMAS",
+            "GRADUATION",
+            "SCHOOL"
+        ],
+        "mood": [
+            "BASIC",
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR",
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "AUTUMN",
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image65.jpg",
+            "https://example.com/image13.jpg",
+            "https://example.com/image98.jpg",
+            "https://example.com/image63.jpg"
+        ]
+    },
+    {
+        "_id": "e07f0644-d951-4bcc-a93b-57cfae7b1b32",
+        "sku": "SKU3884",
+        "name": "Cool Sandal",
+        "description": "A stylish sandal in blue color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "SANDAL",
+        "color": "BLUE",
+        "price": 38.29,
+        "stock": 95,
+        "occasion": [
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "WORK",
+            "SCHOOL"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER",
+            "SUMMER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image62.jpg",
+            "https://example.com/image72.jpg",
+            "https://example.com/image59.jpg"
+        ]
+    },
+    {
+        "_id": "35a5689d-fcc6-442f-9a20-93a7cf3c77a6",
+        "sku": "SKU5022",
+        "name": "Comfortable Head",
+        "description": "A stylish head in silver color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "HEAD",
+        "color": "SILVER",
+        "price": 50.89,
+        "stock": 3,
+        "occasion": [
+            "DATE",
+            "CHRISTMAS",
+            "WEDDING",
+            "SCHOOL",
+            "WORK"
+        ],
+        "mood": [
+            "ELEGANT",
+            "CUTE",
+            "COOL",
+            "BASIC",
+            "FANCY"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image77.jpg"
+        ]
+    },
+    {
+        "_id": "1b74b72b-e993-4029-9d63-756aff6c3088",
+        "sku": "SKU9459",
+        "name": "Casual Trouser",
+        "description": "A stylish trouser in magenta color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "TROUSER",
+        "color": "MAGENTA",
+        "price": 43.19,
+        "stock": 63,
+        "occasion": [
+            "DATE",
+            "WEDDING",
+            "DAY_OFF",
+            "SCHOOL"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "CASUAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image70.jpg",
+            "https://example.com/image62.jpg",
+            "https://example.com/image100.jpg"
+        ]
+    },
+    {
+        "_id": "9da1547c-f3bc-45e9-ac44-d565d1a0f61b",
+        "sku": "SKU3336",
+        "name": "Cool Sweater",
+        "description": "A modern sweater in yellow color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SWEATER",
+        "color": "YELLOW",
+        "price": 77.9,
+        "stock": 36,
+        "occasion": [
+            "SCHOOL",
+            "DAY_OFF",
+            "WEDDING",
+            "DATE",
+            "GRADUATION",
+            "NIGHT_OUT",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "FANCY",
+            "ELEGANT",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL",
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image76.jpg",
+            "https://example.com/image78.jpg",
+            "https://example.com/image44.jpg",
+            "https://example.com/image76.jpg",
+            "https://example.com/image79.jpg"
+        ]
+    },
+    {
+        "_id": "310cd510-f087-4b8d-8a41-8fcd5ee65e83",
+        "sku": "SKU3345",
+        "name": "Casual Jacket",
+        "description": "A comfortable jacket in maroon color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "JACKET",
+        "color": "MAROON",
+        "price": 36.43,
+        "stock": 72,
+        "occasion": [
+            "DAY_OFF",
+            "WEDDING"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image41.jpg",
+            "https://example.com/image27.jpg",
+            "https://example.com/image25.jpg",
+            "https://example.com/image31.jpg"
+        ]
+    },
+    {
+        "_id": "7fc00e68-1d8b-4f1a-b488-03d8801288a9",
+        "sku": "SKU4745",
+        "name": "Comfortable Sweatshirt",
+        "description": "A trendy sweatshirt in maroon color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SWEATSHIRT",
+        "color": "MAROON",
+        "price": 31.08,
+        "stock": 13,
+        "occasion": [
+            "DAY_OFF",
+            "SCHOOL",
+            "GRADUATION"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT",
+            "FANCY"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "CASUAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image59.jpg",
+            "https://example.com/image53.jpg"
+        ]
+    },
+    {
+        "_id": "e7991d59-a3a5-40d7-a359-41e64940add9",
+        "sku": "SKU2357",
+        "name": "Cool Shorts",
+        "description": "A comfortable shorts in purple color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "SHORTS",
+        "color": "PURPLE",
+        "price": 60.46,
+        "stock": 67,
+        "occasion": [
+            "WORK",
+            "SCHOOL",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "WEDDING",
+            "CHRISTMAS",
+            "DATE",
+            "GRADUATION"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC",
+            "CUTE"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "SUMMER",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image32.jpg",
+            "https://example.com/image62.jpg",
+            "https://example.com/image69.jpg",
+            "https://example.com/image4.jpg"
+        ]
+    },
+    {
+        "_id": "2d5a2bf1-b9da-4a7b-977d-95e9dc7f8b2d",
+        "sku": "SKU1685",
+        "name": "Modern Denning",
+        "description": "A elegant denning in white color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "DENNING",
+        "color": "WHITE",
+        "price": 49.44,
+        "stock": 94,
+        "occasion": [
+            "CHRISTMAS",
+            "NIGHT_OUT",
+            "WORK"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image48.jpg"
+        ]
+    },
+    {
+        "_id": "d37657bd-28bb-4ec7-af63-66eb613f4e76",
+        "sku": "SKU9429",
+        "name": "Elegant Jewelry",
+        "description": "A classic jewelry in white color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "JEWELRY",
+        "color": "WHITE",
+        "price": 70.78,
+        "stock": 6,
+        "occasion": [
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "ELEGANT",
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image67.jpg",
+            "https://example.com/image93.jpg",
+            "https://example.com/image35.jpg",
+            "https://example.com/image4.jpg"
+        ]
+    },
+    {
+        "_id": "c3b141e1-c849-4849-80d2-5ede419daa44",
+        "sku": "SKU4067",
+        "name": "Cool Sandal",
+        "description": "A cool sandal in white color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "SANDAL",
+        "color": "WHITE",
+        "price": 39.02,
+        "stock": 40,
+        "occasion": [
+            "SCHOOL",
+            "WEDDING",
+            "NIGHT_OUT",
+            "DAY_OFF",
+            "CHRISTMAS",
+            "DATE",
+            "GRADUATION"
+        ],
+        "mood": [
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SPRING",
+            "AUTUMN",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image66.jpg",
+            "https://example.com/image34.jpg"
+        ]
+    },
+    {
+        "_id": "06ac5073-40c2-49c9-a5b2-8cec025f7116",
+        "sku": "SKU3862",
+        "name": "Trendy Coat",
+        "description": "A fancy coat in teal color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "COAT",
+        "color": "TEAL",
+        "price": 89.13,
+        "stock": 27,
+        "occasion": [
+            "GRADUATION",
+            "CHRISTMAS",
+            "WORK",
+            "NIGHT_OUT",
+            "WEDDING",
+            "SCHOOL",
+            "DATE",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image88.jpg",
+            "https://example.com/image90.jpg",
+            "https://example.com/image99.jpg",
+            "https://example.com/image24.jpg",
+            "https://example.com/image98.jpg"
+        ]
+    },
+    {
+        "_id": "de9d58a2-a61d-4d5b-a375-7a94000aa03b",
+        "sku": "SKU8755",
+        "name": "Fancy Jumpsuit",
+        "description": "A comfortable jumpsuit in black color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "JUMPSUIT",
+        "color": "BLACK",
+        "price": 20.66,
+        "stock": 80,
+        "occasion": [
+            "CHRISTMAS",
+            "WORK"
+        ],
+        "mood": [
+            "CUTE",
+            "FANCY",
+            "ELEGANT",
+            "COOL"
+        ],
+        "style": [
+            "GLAMOUR"
+        ],
+        "season": [
+            "WINTER",
+            "SPRING",
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image55.jpg",
+            "https://example.com/image33.jpg",
+            "https://example.com/image4.jpg",
+            "https://example.com/image63.jpg"
+        ]
+    },
+    {
+        "_id": "f6f93963-d6dc-4e61-9637-d30178c75c78",
+        "sku": "SKU6641",
+        "name": "Modern Blazer",
+        "description": "A fancy blazer in teal color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "BLAZER",
+        "color": "TEAL",
+        "price": 80.75,
+        "stock": 44,
+        "occasion": [
+            "DAY_OFF",
+            "CHRISTMAS",
+            "WORK",
+            "SCHOOL"
+        ],
+        "mood": [
+            "COOL",
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "YOUNGER",
+            "CASUAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image20.jpg"
+        ]
+    },
+    {
+        "_id": "94da7e0f-7cca-4eb5-af87-cd636d72c7f9",
+        "sku": "SKU1551",
+        "name": "Chic Heels",
+        "description": "A trendy heels in black color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "HEELS",
+        "color": "BLACK",
+        "price": 96.6,
+        "stock": 42,
+        "occasion": [
+            "WORK",
+            "NIGHT_OUT",
+            "WEDDING"
+        ],
+        "mood": [
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "CASUAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image27.jpg"
+        ]
+    },
+    {
+        "_id": "6ceb9059-2f24-49c2-a7ab-8666ecb52a51",
+        "sku": "SKU6303",
+        "name": "Comfortable Blazer",
+        "description": "A stylish blazer in blue color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "BLAZER",
+        "color": "BLUE",
+        "price": 25.36,
+        "stock": 24,
+        "occasion": [
+            "DAY_OFF",
+            "WORK"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "COOL"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image16.jpg",
+            "https://example.com/image29.jpg",
+            "https://example.com/image33.jpg",
+            "https://example.com/image8.jpg",
+            "https://example.com/image58.jpg"
+        ]
+    },
+    {
+        "_id": "30e980d4-8542-4b0b-81c1-bcf6fe5e13c5",
+        "sku": "SKU2224",
+        "name": "Chic Romper",
+        "description": "A comfortable romper in maroon color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "ROMPER",
+        "color": "MAROON",
+        "price": 74.9,
+        "stock": 14,
+        "occasion": [
+            "DATE",
+            "WORK",
+            "WEDDING",
+            "GRADUATION",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "FANCY",
+            "BASIC",
+            "ELEGANT"
+        ],
+        "style": [
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image52.jpg",
+            "https://example.com/image16.jpg",
+            "https://example.com/image74.jpg",
+            "https://example.com/image48.jpg"
+        ]
+    },
+    {
+        "_id": "3c603ad5-8d13-4895-9339-2e3ddb435c98",
+        "sku": "SKU7288",
+        "name": "Comfortable Head",
+        "description": "A stylish head in black color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "HEAD",
+        "color": "BLACK",
+        "price": 12.87,
+        "stock": 75,
+        "occasion": [
+            "WEDDING",
+            "DATE"
+        ],
+        "mood": [
+            "COOL",
+            "FANCY",
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "YOUNGER",
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER",
+            "AUTUMN",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image93.jpg",
+            "https://example.com/image54.jpg",
+            "https://example.com/image11.jpg",
+            "https://example.com/image71.jpg",
+            "https://example.com/image41.jpg"
+        ]
+    },
+    {
+        "_id": "ace6cb4f-7f2e-488b-a1e9-2b464a46d1a2",
+        "sku": "SKU7543",
+        "name": "Chic Skirt",
+        "description": "A trendy skirt in cyan color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "SKIRT",
+        "color": "CYAN",
+        "price": 56.03,
+        "stock": 74,
+        "occasion": [
+            "NIGHT_OUT",
+            "SCHOOL",
+            "WORK",
+            "WEDDING",
+            "GRADUATION"
+        ],
+        "mood": [
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SUMMER",
+            "WINTER",
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image89.jpg",
+            "https://example.com/image25.jpg",
+            "https://example.com/image84.jpg",
+            "https://example.com/image92.jpg",
+            "https://example.com/image16.jpg"
+        ]
+    },
+    {
+        "_id": "f602a5ae-7bcc-44c0-8a9f-7909dc6c8282",
+        "sku": "SKU1206",
+        "name": "Modern Denning",
+        "description": "A classic denning in black color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "DENNING",
+        "color": "BLACK",
+        "price": 98.08,
+        "stock": 34,
+        "occasion": [
+            "GRADUATION",
+            "WEDDING",
+            "DATE",
+            "CHRISTMAS",
+            "DAY_OFF",
+            "NIGHT_OUT",
+            "WORK"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "CUTE"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "CASUAL"
+        ],
+        "season": [
+            "SPRING"
+        ],
+        "images": [
+            "https://example.com/image56.jpg",
+            "https://example.com/image82.jpg"
+        ]
+    },
+    {
+        "_id": "40c20d9e-3436-4f93-a0e7-1e49955796e1",
+        "sku": "SKU6360",
+        "name": "Comfortable Belt",
+        "description": "A classic belt in olive color, perfect for any bottom occasion.",
+        "category": "BOTTOM",
+        "subCategory": "BELT",
+        "color": "OLIVE",
+        "price": 40.03,
+        "stock": 92,
+        "occasion": [
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "CUTE",
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image96.jpg",
+            "https://example.com/image80.jpg",
+            "https://example.com/image69.jpg",
+            "https://example.com/image31.jpg"
+        ]
+    },
+    {
+        "_id": "8ffe9cc1-e359-4961-9271-3bf862265847",
+        "sku": "SKU2764",
+        "name": "Classic Shorts",
+        "description": "A fancy shorts in gray color, perfect for any outerwear occasion.",
+        "category": "OUTERWEAR",
+        "subCategory": "SHORTS",
+        "color": "GRAY",
+        "price": 80.86,
+        "stock": 82,
+        "occasion": [
+            "WEDDING",
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "WORK",
+            "DATE",
+            "SCHOOL",
+            "DAY_OFF"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "CUTE",
+            "COOL"
+        ],
+        "style": [
+            "GLAMOUR"
+        ],
+        "season": [
+            "SUMMER",
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image31.jpg",
+            "https://example.com/image38.jpg",
+            "https://example.com/image49.jpg",
+            "https://example.com/image94.jpg"
+        ]
+    },
+    {
+        "_id": "54047931-4e92-4159-a889-0506beac0997",
+        "sku": "SKU5330",
+        "name": "Stylish Sandal",
+        "description": "A trendy sandal in navy color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SANDAL",
+        "color": "NAVY",
+        "price": 68.68,
+        "stock": 100,
+        "occasion": [
+            "WORK",
+            "SCHOOL",
+            "NIGHT_OUT"
+        ],
+        "mood": [
+            "ELEGANT",
+            "COOL"
+        ],
+        "style": [
+            "YOUNGER",
+            "TRADITIONAL",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SPRING",
+            "WINTER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image45.jpg"
+        ]
+    },
+    {
+        "_id": "e710345d-b6d2-4e3b-811b-582414f49d8e",
+        "sku": "SKU4423",
+        "name": "Trendy Dress",
+        "description": "A modern dress in gray color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "DRESS",
+        "color": "GRAY",
+        "price": 25.69,
+        "stock": 2,
+        "occasion": [
+            "GRADUATION",
+            "NIGHT_OUT",
+            "CHRISTMAS",
+            "WEDDING",
+            "DAY_OFF",
+            "WORK"
+        ],
+        "mood": [
+            "CUTE",
+            "ELEGANT",
+            "COOL",
+            "FANCY",
+            "BASIC"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "YOUNGER",
+            "GLAMOUR",
+            "NEO_TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER",
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image56.jpg",
+            "https://example.com/image57.jpg"
+        ]
+    },
+    {
+        "_id": "237252aa-4d58-4a96-9ddb-d764a19b7a69",
+        "sku": "SKU5122",
+        "name": "Cool Jumpsuit",
+        "description": "A casual jumpsuit in green color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "JUMPSUIT",
+        "color": "GREEN",
+        "price": 91.54,
+        "stock": 43,
+        "occasion": [
+            "WEDDING",
+            "SCHOOL",
+            "WORK",
+            "DAY_OFF",
+            "DATE",
+            "NIGHT_OUT",
+            "GRADUATION",
+            "CHRISTMAS"
+        ],
+        "mood": [
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER",
+            "NEO_TRADITIONAL",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image27.jpg",
+            "https://example.com/image78.jpg"
+        ]
+    },
+    {
+        "_id": "83f84664-f0ab-4629-bac5-c3c6234e8499",
+        "sku": "SKU2933",
+        "name": "Cool Belt",
+        "description": "A chic belt in yellow color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "BELT",
+        "color": "YELLOW",
+        "price": 16.64,
+        "stock": 98,
+        "occasion": [
+            "GRADUATION",
+            "CHRISTMAS",
+            "SCHOOL",
+            "WEDDING",
+            "WORK",
+            "DATE"
+        ],
+        "mood": [
+            "FANCY",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "TRADITIONAL"
+        ],
+        "season": [
+            "AUTUMN",
+            "SPRING",
+            "SUMMER",
+            "WINTER"
+        ],
+        "images": [
+            "https://example.com/image87.jpg",
+            "https://example.com/image38.jpg"
+        ]
+    },
+    {
+        "_id": "9ada4883-f123-4d6e-8aaf-856df7c0b474",
+        "sku": "SKU2996",
+        "name": "Fancy Shirt",
+        "description": "A trendy shirt in magenta color, perfect for any shoes occasion.",
+        "category": "SHOES",
+        "subCategory": "SHIRT",
+        "color": "MAGENTA",
+        "price": 71.96,
+        "stock": 16,
+        "occasion": [
+            "DAY_OFF",
+            "WEDDING",
+            "DATE",
+            "WORK",
+            "SCHOOL",
+            "NIGHT_OUT",
+            "GRADUATION"
+        ],
+        "mood": [
+            "ELEGANT",
+            "FANCY",
+            "COOL",
+            "BASIC"
+        ],
+        "style": [
+            "TRADITIONAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "CASUAL"
+        ],
+        "season": [
+            "AUTUMN"
+        ],
+        "images": [
+            "https://example.com/image83.jpg",
+            "https://example.com/image54.jpg"
+        ]
+    },
+    {
+        "_id": "f0a1b1e5-a0c6-46db-937f-a563663071c3",
+        "sku": "SKU9666",
+        "name": "Trendy Dress",
+        "description": "A fancy dress in blue color, perfect for any top occasion.",
+        "category": "TOP",
+        "subCategory": "DRESS",
+        "color": "BLUE",
+        "price": 28.65,
+        "stock": 73,
+        "occasion": [
+            "CHRISTMAS",
+            "DAY_OFF",
+            "SCHOOL",
+            "DATE",
+            "WEDDING"
+        ],
+        "mood": [
+            "CUTE",
+            "COOL",
+            "FANCY",
+            "ELEGANT",
+            "BASIC"
+        ],
+        "style": [
+            "YOUNGER"
+        ],
+        "season": [
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image20.jpg",
+            "https://example.com/image19.jpg",
+            "https://example.com/image73.jpg"
+        ]
+    },
+    {
+        "_id": "4f47c26a-175b-4e99-9e7f-b5131ff71eba",
+        "sku": "SKU8494",
+        "name": "Modern Boots",
+        "description": "A comfortable boots in silver color, perfect for any one_piece occasion.",
+        "category": "ONE_PIECE",
+        "subCategory": "BOOTS",
+        "color": "SILVER",
+        "price": 65.77,
+        "stock": 78,
+        "occasion": [
+            "SCHOOL"
+        ],
+        "mood": [
+            "FANCY"
+        ],
+        "style": [
+            "CASUAL",
+            "YOUNGER"
+        ],
+        "season": [
+            "AUTUMN",
+            "WINTER",
+            "SPRING",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image17.jpg",
+            "https://example.com/image31.jpg",
+            "https://example.com/image60.jpg",
+            "https://example.com/image15.jpg"
+        ]
+    },
+    {
+        "_id": "b0afe1ca-12d5-49c0-bc3c-0fd834a41608",
+        "sku": "SKU8889",
+        "name": "Modern Denning",
+        "description": "A classic denning in maroon color, perfect for any accessories occasion.",
+        "category": "ACCESSORIES",
+        "subCategory": "DENNING",
+        "color": "MAROON",
+        "price": 65.48,
+        "stock": 30,
+        "occasion": [
+            "SCHOOL",
+            "DAY_OFF",
+            "WORK",
+            "WEDDING",
+            "NIGHT_OUT",
+            "DATE",
+            "CHRISTMAS",
+            "GRADUATION"
+        ],
+        "mood": [
+            "FANCY",
+            "CUTE",
+            "ELEGANT",
+            "COOL"
+        ],
+        "style": [
+            "NEO_TRADITIONAL",
+            "YOUNGER",
+            "CASUAL",
+            "GLAMOUR",
+            "TRADITIONAL"
+        ],
+        "season": [
+            "WINTER",
+            "SUMMER"
+        ],
+        "images": [
+            "https://example.com/image98.jpg",
+            "https://example.com/image39.jpg",
+            "https://example.com/image15.jpg"
+        ]
+    }
+]
