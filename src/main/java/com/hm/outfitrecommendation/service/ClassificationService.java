@@ -1,11 +1,10 @@
-package com.hm.outfitrecommendation.service.impl;
+package com.hm.outfitrecommendation.service;
 
 import com.hm.outfitrecommendation.dto.Item;
 import com.hm.outfitrecommendation.dto.classification.Category;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import java.math.BigDecimal;
 import java.util.*;
 
 @Service

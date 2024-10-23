@@ -2,7 +2,7 @@ package com.hm.outfitrecommendation.controller;
 
 import com.hm.outfitrecommendation.dto.OutfitRequest;
 import com.hm.outfitrecommendation.dto.OutfitResponse;
-import com.hm.outfitrecommendation.service.impl.OutfitBuilderService;
+import com.hm.outfitrecommendation.service.OutfitBuilderService;
 import jakarta.validation.Valid;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -5,6 +5,7 @@
     "mood": "ELEGANT",
     "style": "TRADITIONAL",
     "season": "WINTER",
+    "color": "RED",
     "budget": {
       "min": 300,
       "max": 500

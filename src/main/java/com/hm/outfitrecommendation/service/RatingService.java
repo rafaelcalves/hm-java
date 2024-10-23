@@ -1,9 +1,8 @@
-package com.hm.outfitrecommendation.service.impl;
+package com.hm.outfitrecommendation.service;
 
 import com.hm.outfitrecommendation.dto.Item;
 import com.hm.outfitrecommendation.dto.ItemFeedback;
 import com.hm.outfitrecommendation.dto.OutfitRequest;
-import com.hm.outfitrecommendation.service.AiService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

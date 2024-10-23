@@ -1,11 +1,9 @@
-package com.hm.outfitrecommendation.service.impl;
+package com.hm.outfitrecommendation.service;
 
 import com.hm.outfitrecommendation.dto.Item;
 import com.hm.outfitrecommendation.dto.ItemFeedback;
 import com.hm.outfitrecommendation.dto.OutfitRequest;
 import com.hm.outfitrecommendation.dto.OutfitResponse;
-import com.hm.outfitrecommendation.service.AiService;
-import com.hm.outfitrecommendation.service.StockService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

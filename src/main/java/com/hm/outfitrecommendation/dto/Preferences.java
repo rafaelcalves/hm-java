@@ -5,6 +5,7 @@ import com.hm.outfitrecommendation.dto.classification.Occasion;
 import com.hm.outfitrecommendation.dto.classification.Season;
 import com.hm.outfitrecommendation.dto.classification.Style;
 import jakarta.validation.constraints.NotNull;
+import org.openqa.selenium.support.Colors;
 
 public record Preferences(
         @NotNull(message = "{notNull.message.occasion}")
@@ -12,6 +13,7 @@ public record Preferences(
         Mood mood,
         Style style,
         Season season,
+        Colors color,
         Budget budget
 ) {
     public record Budget(Double min, Double max) {

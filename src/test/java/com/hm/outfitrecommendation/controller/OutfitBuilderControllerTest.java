@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hm.outfitrecommendation.config.ObjectMapperConfig;
 import com.hm.outfitrecommendation.dto.OutfitRequest;
 import com.hm.outfitrecommendation.dto.OutfitResponse;
-import com.hm.outfitrecommendation.service.impl.OutfitBuilderService;
+import com.hm.outfitrecommendation.service.OutfitBuilderService;
 import io.hosuaby.inject.resources.junit.jupiter.GivenJsonResource;
 import io.hosuaby.inject.resources.junit.jupiter.GivenTextResource;
 import io.hosuaby.inject.resources.junit.jupiter.TestWithResources;

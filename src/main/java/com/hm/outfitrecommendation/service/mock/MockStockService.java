@@ -10,11 +10,22 @@ import java.util.List;
 
 @Service
 public class MockStockService implements StockService {
-    @JsonResource("/io/hosuaby/junit/jupiter/sponge-bob.json")
+    @JsonResource("/com/hm/outfitrecommendation/service/mock/items.json")
     private List<Item> mockFilteredQueryResult;
+
+    private static boolean matchPreferences(Item item, Preferences preferences) {
+        return item.stock() != null && item.stock() > 0 &&
+                item.occasions().contains(preferences.occasion()) &&
+                (preferences.budget() == null || preferences.budget().min() <= item.price() &&
+                        preferences.budget().max() >= item.price()) &&
+                (preferences.color() == null || item.color().equals(preferences.color())) &&
+                (preferences.mood() == null || item.moods().contains(preferences.mood())) &&
+                (preferences.season() == null || item.seasons().contains(preferences.season())) &&
+                (preferences.style() == null || item.styles().contains(preferences.style()));
+    }
 
     @Override
     public List<Item> getMatchingAvailableItems(Preferences preferences) {
-        return mockFilteredQueryResult;
+        return mockFilteredQueryResult.stream().filter(item -> matchPreferences(item, preferences)).toList();
     }
 }
