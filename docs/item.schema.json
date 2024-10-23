@@ -1,0 +1,163 @@
+{
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "type": "object",
+    "title": "item",
+    "properties": {
+      "_id": {
+        "type": "string",
+        "format": "uuid"
+      },
+      "sku": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "description": {
+        "type": "string"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "TOP",
+          "BOTTOM",
+          "ONE_PIECE",
+          "OUTERWEAR",
+          "SHOES",
+          "ACCESSORIES"
+        ]
+      },
+      "subCategory": {
+        "type": "string",
+        "enum": [
+          "HEAD",
+          "JEWELRY",
+          "BELT",
+          "BAG",
+          "SHIRT",
+          "T_SHIRT",
+          "TANKTOP",
+          "SWEATSHIRT",
+          "TROUSER",
+          "SHORTS",
+          "SKIRT",
+          "DENNING",
+          "SANDAL",
+          "SNEAKER",
+          "BOOTS",
+          "HEELS",
+          "JUMPSUIT",
+          "DRESS",
+          "ROMPER",
+          "BODYSUIT",
+          "JACKET",
+          "SWEATER",
+          "COAT",
+          "BLAZER"
+        ]
+      },
+      "color": {
+        "type": "string"
+      },
+      "price": {
+        "type": "number",
+        "minimum": 0
+      },
+      "stock": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "occasion": {
+        "type": "array",
+        "additionalItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "CHRISTMAS",
+            "WEDDING",
+            "GRADUATION",
+            "DATE",
+            "NIGHT_OUT",
+            "WORK",
+            "SCHOOL",
+            "DAY_OFF"
+          ]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "mood": {
+        "type": "array",
+        "additionalItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "COOL",
+            "CUTE",
+            "ELEGANT",
+            "BASIC",
+            "FANCY"
+          ]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "style": {
+        "type": "array",
+        "additionalItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "CASUAL",
+            "TRADITIONAL",
+            "GLAMOUR",
+            "NEO_TRADITIONAL",
+            "YOUNGER"
+          ]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "season": {
+        "type": "array",
+        "additionalItems": true,
+        "items": {
+          "type": "string",
+          "enum": [
+            "SUMMER",
+            "AUTUMN",
+            "WINTER",
+            "SPRING"
+          ]
+        },
+        "minItems": 1,
+        "uniqueItems": true
+      },
+      "images": {
+        "type": "array",
+        "additionalItems": true,
+        "items": {
+          "type": "string",
+          "format": "uri",
+          "minLength": 1
+        }
+      }
+    },
+    "additionalProperties": false,
+    "dependentRequired": {
+      "subCategory": [
+        "category"
+      ]
+    },
+    "required": [
+      "_id",
+      "sku",
+      "name",
+      "description",
+      "category",
+      "color"
+    ]
+  },
+  "schemaType": "JSON"
+}
